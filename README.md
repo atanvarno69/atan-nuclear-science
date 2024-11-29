@@ -28,8 +28,7 @@ These technologies are altered to require nuclear science packs to research:
 * [Spidertron](https://wiki.factorio.com/Spidertron_(research))
 * [Uranium ammo](https://wiki.factorio.com/Uranium_ammo_(research))
 
-The centrifuge is altered to have a crafting speed of 2 and four module slots. It may only be crafted on Nauvis. An
-option is provided to give it a base 50% productivity bonus, analogous to the foundry and electromagnetic plant.
+The centrifuge is altered to have a crafting speed of 2 and four module slots. It may only be crafted on Nauvis. An option is provided to give it a base 50% productivity bonus, analogous to the foundry and electromagnetic plant.
 
 These recipes can now be crafted in a centrifuge, in addition to an assembling machine or by the player:
 
@@ -44,22 +43,18 @@ These recipes are altered to be crafted in a centrifuge only:
 
 * [Uranium fuel cell](https://wiki.factorio.com/Uranium_fuel_cell)
 
-All recipes with a uranium ingredient are altered to double their crafting time to account for the centrifuge's
-improved crafting speed.
+All recipes with a uranium ingredient are altered to double their crafting time to account for the centrifuge's improved crafting speed.
 
 ## Compatibility
 
-This mod is designed to be used with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), though it can
-be used stand alone. When the technology Planet discovery Nauvis exists, the technology Uranium mining is altered to
-require it.
+This mod is designed to be used with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), though it can be used stand alone. When the technology Planet discovery Nauvis exists, the technology Uranium mining is altered to require it.
 
 ## But why?
 
-When starting the game elsewhere, Nauvis feels out of place as there is little reason to go there for game progression.
-This mod makes Nauvis more like the other planets, providing its own science pack that is required to get to Aquilo and
-beyond.
+When starting the game elsewhere, Nauvis feels out of place as there is little reason to go there for game progression. This mod makes Nauvis more like the other planets, providing its own science pack that is required to get to Aquilo and beyond.
 
 ## Credits
 
-The uranium science pack graphics are taken from [Space Age Science Packs](https://mods.factorio.com/mod/sa-science-packs),
-by [ArchEzekiel](https://mods.factorio.com/user/ArchEzekiel), released under the [MIT license](https://opensource.org/licenses/MIT).
+The uranium science pack graphics are taken from [Space Age Science Packs](https://mods.factorio.com/mod/sa-science-packs), by [ArchEzekiel](https://mods.factorio.com/user/ArchEzekiel), released under the [MIT license](https://opensource.org/licenses/MIT).
+
+Russian translation provided by [RaulMoreau](https://mods.factorio.com/user/RaulMoreau).
