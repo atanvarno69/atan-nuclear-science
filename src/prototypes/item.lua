@@ -8,7 +8,7 @@ data:extend({
         localised_description = { "item-description.science-pack" },
         icon = "__atan-nuclear-science__/graphics/items/nuclear-science-pack.png",
         subgroup = "science-pack",
-        color_hint = { text = "M" },
+        color_hint = { text = "N" },
         order = "g[z-nuclear-science-pack]",
         inventory_move_sound = item_sounds.science_inventory_move,
         pick_sound = item_sounds.science_inventory_pickup,
@@ -21,5 +21,22 @@ data:extend({
         factoriopedia_durability_description_key = "description.factoriopedia-science-pack-remaining-amount-key",
         durability_description_value = "description.science-pack-remaining-amount-value",
         random_tint_color = item_tints.bluish_science,
+        pictures = {
+            layers = {
+                {
+                    filename = "__atan-nuclear-science__/graphics/items/nuclear-science-pack.png",
+                    mipmap_count = 4,
+                    scale = 0.5,
+                    size = 64,
+                },
+                {
+                    filename = "__atan-nuclear-science__/graphics/items/space-age-science-pack-glow.png",
+                    mipmap_count = 4,
+                    scale = 0.5,
+                    size = 64,
+                    draw_as_light = true,
+                },
+            },
+        },
     },
 })
