@@ -93,6 +93,11 @@ end
 if mods["any-planet-start"] and settings.startup["aps-planet"].value ~= "nauvis" then
     table.insert(data.raw["technology"]["uranium-mining"].prerequisites, "planet-discovery-nauvis")
 end
+if not mods["any-planet-start"] or settings.startup["aps-planet"].value == "nauvis" then
+    if data.raw["technology"]["uranium-processing"] then
+        table.insert(data.raw["technology"]["uranium-processing"].prerequisites, "concrete")
+    end
+end
 if data.raw["technology"]["uranium-processing"] then
     data.raw["technology"]["uranium-processing"].essential = true
 end

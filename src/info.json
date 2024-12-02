@@ -1,12 +1,11 @@
 {
     "name": "atan-nuclear-science",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "title": "Nuclear Science",
     "author": "atanvarno",
     "description": "Adds nuclear science as Nauvis's science pack.",
     "factorio_version": "2.0",
     "dependencies": [
-        "base",
         "space-age",
         "? any-planet-start"
     ]

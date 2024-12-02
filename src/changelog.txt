@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version 0.1.2
+Date: 02-12-2024
+  Bugfixes:
+    - When Nauvis is the starting planet, uranium processing research now requires concrete.
+  Info:
+    - Removed base as a dependency as this is redundant with a space-age dependency.
+---------------------------------------------------------------------------------------------------
 Version 0.1.1
 Date: 30-11-2024
   Graphics:
