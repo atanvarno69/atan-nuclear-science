@@ -10,7 +10,8 @@ data:extend({
     {
         type = "recipe",
         name = "nuclear-science-pack",
-        category = "centrifuging",
+        --category = "centrifuging",
+        category = "crafting-with-fluid",
         surface_conditions = {
             {
                 property = "pressure",
@@ -21,14 +22,15 @@ data:extend({
         enabled = false,
         ingredients = {
             { type = "item", name = "uranium-235", amount = 1 },
-            { type = "item", name = "electronic-circuit", amount = 3 },
-            { type = "item", name = "solid-fuel", amount = 2 },
+            { type = "item", name = "wood", amount = 1},
+            { type = "fluid", name = "steam", amount = 500 },
         },
         energy_required = 10,
-        results = { { type = "item", name = "nuclear-science-pack", amount = 1 } },
+        results = { { type = "item", name = "nuclear-science-pack", amount = 3 } },
         allow_productivity = true,
     },
 })
+
 
 local uranium_recipes = {
     "atomic-bomb",
@@ -65,3 +67,11 @@ end
 if data.raw["recipe"]["uranium-fuel-cell"] then
     data.raw["recipe"]["uranium-fuel-cell"].category = "centrifuging"
 end
+
+data.raw["recipe"]["agricultural-tower"].ingredients = 
+{
+  {type = "item", name = "steel-plate", amount = 10},
+  {type = "item", name = "electronic-circuit", amount = 3},
+  --{type = "item", name = "spoilage", amount = 20},
+  {type = "item", name = "landfill", amount = 1}
+}
