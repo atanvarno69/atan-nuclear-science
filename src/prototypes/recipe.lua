@@ -21,12 +21,13 @@ data:extend({
         },
         enabled = false,
         ingredients = {
-            { type = "item", name = "uranium-235", amount = 1 },
+            --{ type = "item", name = "uranium-235", amount = 1 },
+            { type = "item", name = "uranium-238", amount = 1 },
             { type = "item", name = "wood", amount = 1},
             { type = "fluid", name = "steam", amount = 500 },
         },
         energy_required = 10,
-        results = { { type = "item", name = "nuclear-science-pack", amount = 3 } },
+        results = { { type = "item", name = "nuclear-science-pack", amount = 1 } },
         allow_productivity = true,
     },
 })
