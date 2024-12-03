@@ -137,3 +137,22 @@ delete_space_science_prereq_cost("atomic-bomb")
 if data.raw["technology"]["atomic-bomb"] and data.raw["technology"]["atomic-bomb"].unit then
     table.insert(data.raw["technology"]["atomic-bomb"].unit.ingredients, { "production-science-pack", 1 })
 end
+
+-- Changes to agriculture tower techs
+
+local tree_seeding=data.raw["technology"]["tree-seeding"]
+data.raw["technology"]["fish-breeding"].prerequisites=tree_seeding.prerequisites
+tree_seeding.unit.ingredients = {
+    { "automation-science-pack", 1 },
+    { "logistic-science-pack", 1 }
+}
+tree_seeding.prerequisites = {
+    "landfill"
+}
+table.insert(tree_seeding.effects,{type="unlock-recipe", recipe="agricultural-tower"})
+
+
+-- if mods["any-planet-start"] and settings.startup["aps-planet"].value ~= "nauvis" then
+
+-- end
+table.insert(data.raw["technology"]["nuclear-science-pack"].prerequisites,"tree-seeding")
