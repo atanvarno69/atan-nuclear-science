@@ -1,12 +1,23 @@
 ---------------------------------------------------------------------------------------------------
-Version 0.1.2
+Version: 0.2.0
+Date: 2024-12-04
+  Bugfixes:
+    - Fix changelog not displaying in game.
+  Changes:
+    - Alter nuclear science pack recipe to 10 s + 1 uranium 235 + 10 water barrel + 5 concrete → 1 nuclear science pack.
+  Modding:
+    - Improve default compatibility with other mods.
+  Info:
+    - Code clean up and restructure. Now leverages data-updates stage for compatibility.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
 Date: 02-12-2024
   Bugfixes:
     - When Nauvis is the starting planet, uranium processing research now requires concrete.
   Info:
     - Removed base as a dependency as this is redundant with a space-age dependency.
 ---------------------------------------------------------------------------------------------------
-Version 0.1.1
+Version: 0.1.1
 Date: 30-11-2024
   Graphics:
     - Add glow to nuclear science pack.

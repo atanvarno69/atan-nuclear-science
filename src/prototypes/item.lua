@@ -1,12 +1,11 @@
 local item_sounds = require("__base__.prototypes.item_sounds")
-local item_tints = require("__base__.prototypes.item-tints")
 
 data:extend({
     {
         type = "tool",
         name = "nuclear-science-pack",
         localised_description = { "item-description.science-pack" },
-        icon = "__atan-nuclear-science__/graphics/items/nuclear-science-pack.png",
+        icon = "__atan-nuclear-science__/graphics/icons/nuclear-science-pack.png",
         subgroup = "science-pack",
         color_hint = { text = "N" },
         order = "g[z-nuclear-science-pack]",
@@ -20,17 +19,17 @@ data:extend({
         durability_description_key = "description.science-pack-remaining-amount-key",
         factoriopedia_durability_description_key = "description.factoriopedia-science-pack-remaining-amount-key",
         durability_description_value = "description.science-pack-remaining-amount-value",
-        random_tint_color = item_tints.bluish_science,
+        random_tint_color = require("__base__.prototypes.item-tints").bluish_science,
         pictures = {
             layers = {
                 {
-                    filename = "__atan-nuclear-science__/graphics/items/nuclear-science-pack.png",
+                    filename = "__atan-nuclear-science__/graphics/icons/nuclear-science-pack.png",
                     mipmap_count = 4,
                     scale = 0.5,
                     size = 64,
                 },
                 {
-                    filename = "__atan-nuclear-science__/graphics/items/space-age-science-pack-glow.png",
+                    filename = "__atan-nuclear-science__/graphics/icons/space-age-science-pack-glow.png",
                     mipmap_count = 4,
                     scale = 0.5,
                     size = 64,
