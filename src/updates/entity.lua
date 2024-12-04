@@ -1,3 +1,8 @@
+-- Assembling machines
+table.insert(data.raw["assembling-machine"]["assembling-machine-1"].crafting_categories, "centrifuging-or-crafting")
+table.insert(data.raw["assembling-machine"]["assembling-machine-2"].crafting_categories, "centrifuging-or-crafting")
+table.insert(data.raw["assembling-machine"]["assembling-machine-3"].crafting_categories, "centrifuging-or-crafting")
+
 -- Character
 table.insert(data.raw["character"]["character"].crafting_categories, "centrifuging-or-crafting")
 

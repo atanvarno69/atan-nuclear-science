@@ -12,7 +12,7 @@ data:extend({
         },
         results = {
             { type = "item", name = "nuclear-science-pack", amount = 1 },
-            { type = "item", name = "empty-barrel", amount = 10, ignored_by_productivity = 10 },
+            { type = "item", name = "barrel", amount = 10, ignored_by_productivity = 10 },
         },
         main_product = "nuclear-science-pack",
         allow_productivity = true,

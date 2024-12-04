@@ -8,6 +8,8 @@ for technology_name, _ in pairs(data.raw["technology"]) do
         util.add_ingredient(technology_name, { "nuclear-science-pack", 1 })
     end
 end
+--- Fixes nuclear-science-pack requiring itself
+util.add_prerequisite("nuclear-science-pack", "uranium-processing")
 
 -- Update technologies requiring metallurgic, electromagnetic and agricultural science packs
 -- NOTE: captive-biter-spawner, fusion-reactor-equipment, fusion-reactor, legendary-quality, planet-discovery-aquilo,
@@ -24,6 +26,7 @@ local base_technologies = {
     "fission-reactor-equipment",
     "nuclear-fuel-reprocessing",
     "physical-projectile-damage-7",
+    "railgun-shooting-speed-1",
     "spidertron",
 }
 for _, technology_name in pairs(base_technologies) do
@@ -35,10 +38,14 @@ end
 util.delete_prerequisite("atomic-bomb", "space-science-pack")
 util.delete_ingredient("atomic-bomb", "space-science-pack")
 util.add_ingredient("atomic-bomb", { "production-science-pack", 1 })
--- kovarex-enrichment-process
+--- kovarex-enrichment-process
 util.add_prerequisite("kovarex-enrichment-process", "production-science-pack")
 util.add_prerequisite("kovarex-enrichment-process", "rocket-fuel")
 util.add_ingredient("kovarex-enrichment-process", { "production-science-pack", 1 })
+--- physical-projectile-damage-7
+util.add_prerequisite("physical-projectile-damage-7", "nuclear-science-pack")
+--- planet-discovery-aquilo
+util.add_prerequisite("planet-discovery-aquilo", "nuclear-science-pack")
 
 -- Guided Nauvis tech chain
 --- Uranium mining

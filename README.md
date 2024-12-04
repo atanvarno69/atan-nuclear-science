@@ -24,6 +24,7 @@ These technologies are altered to require nuclear science packs to research:
 * [Portable fission reactor](https://wiki.factorio.com/Portable_fission_reactor_(research))
 * [Portable fusion reactor](https://wiki.factorio.com/Portable_fusion_reactor_(research))
 * [Promethium science pack](https://wiki.factorio.com/Promethium_science_pack_(research))
+* [Railgun shooting speed 1-∞](https://wiki.factorio.com/Railgun_shooting_speed_(research))
 * [Research productivity](https://wiki.factorio.com/Research_productivity_(research))
 * [Spidertron](https://wiki.factorio.com/Spidertron_(research))
 * [Uranium ammo](https://wiki.factorio.com/Uranium_ammo_(research))
