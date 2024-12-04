@@ -8,7 +8,7 @@ Alters the technology tree to give Nauvis its own progression analogous to the o
 * [Uranium processing](https://wiki.factorio.com/Uranium_processing_(research)) requires Uranium mining. Researched by mining [uranium ore](https://wiki.factorio.com/Uranium_ore). Unlocks the [centrifuge](https://wiki.factorio.com/Centrifuge) and the [uranium processing](https://wiki.factorio.com/Uranium_processing) recipe.
 * Nuclear science pack requires Uranium processing. Researched by crafting [uranium-235](https://wiki.factorio.com/Uranium-235). Unlocks the nuclear science pack recipe.
 
-The nuclear science pack has the recipe: 10 s + 3 [electronic circuit](https://wiki.factorio.com/Electronic_circuit) + 2 [solid fuel](https://wiki.factorio.com/Solid_fuel) + 1 [uranium-235](https://wiki.factorio.com/Uranium-235) → 1 nuclear science pack
+The nuclear science pack has the recipe: 10 s + 1 [uranium-235](https://wiki.factorio.com/Uranium-235) + 10 [water barrel](https://wiki.factorio.com/Barrel) + 5 [concrete](https://wiki.factorio.com/Concrete) → 1 nuclear science pack + 10 [empty barrel](https://wiki.factorio.com/Barrel). Empty barrel return is unaffected by productivity.
 
 These technologies are altered to require nuclear science packs to research:
 

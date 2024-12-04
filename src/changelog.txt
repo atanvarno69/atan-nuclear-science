@@ -1,14 +1,15 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2024-12-04
+  Changes:
+    - WARNING: Backwards compatibility breaking version.
+    - Alter nuclear science pack recipe to 10 s + 1 uranium-235 + 10 water barrel + 5 concrete → 1 nuclear science pack + 10 empty barrel.
   Bugfixes:
     - Fix changelog not displaying in game.
-  Changes:
-    - Alter nuclear science pack recipe to 10 s + 1 uranium 235 + 10 water barrel + 5 concrete → 1 nuclear science pack.
-  Modding:
-    - Improve default compatibility with other mods.
   Info:
     - Code clean up and restructure. Now leverages data-updates stage for compatibility.
+  Modding:
+    - Improve default compatibility with other mods.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 02-12-2024
