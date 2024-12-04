@@ -4,7 +4,10 @@ Date: 2024-12-04
   Changes:
     - WARNING: Backwards compatibility breaking version.
     - Alter nuclear science pack recipe to 10 s + 1 uranium-235 + 10 water barrel + 5 concrete → 1 nuclear science pack + 10 empty barrel.
+    - Allow nuclear fuel cell to be made by the player, in an assembling machine or in a centrifuge.
     - Railgun shooting speed now requires nuclear science.
+  Compatibility:
+    - [PlutoniumEnergy] Add support for Plutonium Energy mod.
   Bugfixes:
     - Fix changelog not displaying in game.
   Info:

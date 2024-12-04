@@ -4,6 +4,11 @@ function M.double_crafting_time(recipe_name)
     data.raw["recipe"][recipe_name].energy_required = 2 * data.raw["recipe"][recipe_name].energy_required
 end
 
+function M.is_centrifuging_recipe(recipe_name)
+    local category = data.raw["recipe"][recipe_name].category
+    return category == "centrifuging" or category == "centrifuging-or-crafting"
+end
+
 function M.set_crafting_category(recipe_name, category)
     data.raw["recipe"][recipe_name].category = category
 end
