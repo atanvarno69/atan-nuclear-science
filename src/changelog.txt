@@ -4,6 +4,7 @@ Date: 2024-12-04
   Changes:
     - WARNING: Backwards compatibility breaking version.
     - Alter nuclear science pack recipe to 10 s + 1 uranium-235 + 10 water barrel + 5 concrete → 1 nuclear science pack + 10 empty barrel.
+    - Railgun shooting speed now requires nuclear science.
   Bugfixes:
     - Fix changelog not displaying in game.
   Info:
