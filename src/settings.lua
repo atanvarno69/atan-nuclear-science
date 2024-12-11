@@ -18,7 +18,7 @@ if not mods["PlutoniumEnergy"] then
     atan_settings["atan-science-from-plutonium"].forced_value = false
 end
 
-if not data.raw["string-setting"]["aps-planet"] then
+if not mods["any-planet-start"] then
     atan_settings["aps-planet"] = {
         type = "string-setting",
         name = "aps-planet",

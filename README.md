@@ -38,17 +38,16 @@ These recipes can now be crafted in a centrifuge, in addition to an assembling m
 * [Portable fission reactor](https://wiki.factorio.com/Portable_fission_reactor)
 * [Portable fusion reactor](https://wiki.factorio.com/Portable_fusion_reactor)
 * [Uranium cannon shell](https://wiki.factorio.com/Uranium_cannon_shell)
-* [Uranium rounds magazine](https://wiki.factorio.com/Uranium_rounds_magazine)
-
-These recipes are altered to be crafted in a centrifuge only:
-
 * [Uranium fuel cell](https://wiki.factorio.com/Uranium_fuel_cell)
+* [Uranium rounds magazine](https://wiki.factorio.com/Uranium_rounds_magazine)
 
 All recipes with a uranium ingredient are altered to double their crafting time to account for the centrifuge's improved crafting speed.
 
 ## Compatibility
 
 This mod is designed to be used with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), though it can be used stand alone. When the technology Planet discovery Nauvis exists, the technology Uranium mining is altered to require it.
+
+Compatibility is provided for [Plutonium Energy](https://mods.factorio.com/mod/PlutoniumEnergy).
 
 ## But why?
 
