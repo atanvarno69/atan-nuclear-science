@@ -11,6 +11,13 @@ local atan_settings = {
         setting_type = "startup",
         default_value = true,
     },
+    ["atan-kovarex-mode"] = {
+        type = "string-setting",
+        name = "atan-kovarex-mode",
+        setting_type = "startup",
+        default_value = "cheap",
+        allowed_values = { "cheap", "expensive", "trigger" },
+    },
 }
 
 if not mods["PlutoniumEnergy"] then

@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2024-12-14
+  Changes:
+    - Add option to reduce Kovarex enrichment process research cost.
+  Bugfixes:
+    - Fix Kovarex enrichment process prerequisites reversion.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2024-12-11
   Bugfixes:

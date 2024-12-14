@@ -39,8 +39,10 @@ util.delete_prerequisite("atomic-bomb", "space-science-pack")
 util.delete_ingredient("atomic-bomb", "space-science-pack")
 util.add_ingredient("atomic-bomb", { "production-science-pack", 1 })
 --- kovarex-enrichment-process
-util.add_prerequisite("kovarex-enrichment-process", "production-science-pack")
+util.delete_prerequisite("kovarex-enrichment-process", "space-science-pack")
+util.delete_ingredient("kovarex-enrichment-process", "space-science-pack")
 util.add_prerequisite("kovarex-enrichment-process", "rocket-fuel")
+util.add_prerequisite("kovarex-enrichment-process", "production-science-pack")
 util.add_ingredient("kovarex-enrichment-process", { "production-science-pack", 1 })
 --- physical-projectile-damage-7
 util.add_prerequisite("physical-projectile-damage-7", "nuclear-science-pack")
@@ -60,4 +62,23 @@ end
 data.raw["technology"]["uranium-processing"].essential = true
 if settings.startup["aps-planet"].value == "nauvis" then
     table.insert(data.raw["technology"]["uranium-processing"].prerequisites, "concrete")
+end
+
+-- Kovarex setting adjustment
+if settings.startup["atan-kovarex-mode"].value == "trigger" then
+    data.raw["technology"]["kovarex-enrichment-process"].unit = nil
+    data.raw["technology"]["kovarex-enrichment-process"].research_trigger = {
+        type = "craft-item",
+        item = "uranium-235",
+        count = 40,
+    }
+elseif settings.startup["atan-kovarex-mode"].value == "cheap" then
+    local kovarex = data.raw["technology"]["kovarex-enrichment-process"]
+    kovarex.unit.time = kovarex.unit.time * 100
+    kovarex.unit.count = kovarex.unit.count / 100
+    for _, ingredient in pairs(kovarex.unit.ingredients) do
+        if ingredient[1] ~= "nuclear-science-pack" then
+            ingredient[2] = ingredient[2] * 100
+        end
+    end
 end
