@@ -74,11 +74,11 @@ if settings.startup["atan-kovarex-mode"].value == "trigger" then
     }
 elseif settings.startup["atan-kovarex-mode"].value == "cheap" then
     local kovarex = data.raw["technology"]["kovarex-enrichment-process"]
-    kovarex.unit.time = kovarex.unit.time * 100
+    kovarex.unit.time = kovarex.unit.time * 75
     kovarex.unit.count = kovarex.unit.count / 100
     for _, ingredient in pairs(kovarex.unit.ingredients) do
         if ingredient[1] ~= "nuclear-science-pack" then
-            ingredient[2] = ingredient[2] * 100
+            ingredient[2] = ingredient[2] * 75
         end
     end
 end

@@ -3,6 +3,8 @@ Version: 0.2.5
 Date: 2025-02-01
   Bugfixes:
     - Improve compatibility with other mods that alter science prerequisites and science pack ingredients.
+  Changes:
+    - Default Kovarex enrichment cost option altered to 75 non-nuclear science packs per cycle. From feedback, see https://mods.factorio.com/mod/atan-nuclear-science/discussion/675caac1b7aaf65e16de7e41
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.4
 Date: 2025-01-02
