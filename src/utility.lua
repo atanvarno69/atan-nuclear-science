@@ -25,8 +25,30 @@ function M.has_nuclear_ingredient(recipe_name)
     return false
 end
 
+function M.has_ingredient(technology_name, ingredient)
+    for _, extant in pairs(data.raw["technology"][technology_name].unit.ingredients) do
+        if extant[1] == ingredient then
+            return true
+        end
+    end
+    return false
+end
+
+function M.has_prerequisite(technology_name, prerequisite)
+    for _, extant in pairs(data.raw["technology"][technology_name].prerequisites) do
+        if extant == prerequisite then
+            return true
+        end
+    end
+    return false
+end
+
 function M.add_ingredient(technology_name, ingredient)
     if not data.raw["technology"][technology_name].unit then
+        return false
+    end
+    -- Check ingredient doesn't already exist (for mod compatibility)
+    if M.has_ingredient(technology_name, ingredient) then
         return false
     end
     table.insert(data.raw["technology"][technology_name].unit.ingredients, ingredient)
@@ -37,7 +59,10 @@ function M.add_prerequisite(technology_name, prerequisite)
     if not data.raw["technology"][technology_name].prerequisites then
         data.raw["technology"][technology_name].prerequisites = {}
     end
-    table.insert(data.raw["technology"][technology_name].prerequisites, prerequisite)
+    -- Check prerequisite doesn't already exist (for mod compatibility)
+    if not M.has_prerequisite(technology_name, prerequisite) then
+        table.insert(data.raw["technology"][technology_name].prerequisites, prerequisite)
+    end
 end
 
 function M.delete_ingredient(technology_name, target)
