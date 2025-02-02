@@ -56,12 +56,12 @@ data.raw["technology"]["uranium-mining"].prerequisites = { "electric-mining-dril
 data.raw["technology"]["uranium-mining"].unit = nil
 data.raw["technology"]["uranium-mining"].research_trigger = { type = "craft-fluid", fluid = "sulfuric-acid" }
 if settings.startup["aps-planet"].value ~= "nauvis" then
-    table.insert(data.raw["technology"]["uranium-mining"].prerequisites, "planet-discovery-nauvis")
+    util.add_prerequisite("uranium-mining", "planet-discovery-nauvis")
 end
 --- Uranium processing
 data.raw["technology"]["uranium-processing"].essential = true
 if settings.startup["aps-planet"].value == "nauvis" then
-    table.insert(data.raw["technology"]["uranium-processing"].prerequisites, "concrete")
+    util.add_prerequisite("uranium-processing", "concrete")
 end
 
 -- Kovarex setting adjustment
