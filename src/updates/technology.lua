@@ -55,12 +55,12 @@ data.raw["technology"]["uranium-mining"].essential = true
 data.raw["technology"]["uranium-mining"].prerequisites = { "electric-mining-drill", "sulfur-processing" }
 data.raw["technology"]["uranium-mining"].unit = nil
 data.raw["technology"]["uranium-mining"].research_trigger = { type = "craft-fluid", fluid = "sulfuric-acid" }
-if settings.startup["aps-planet"].value ~= "nauvis" then
+if settings.startup["aps-planet"].value ~= "none" then
     util.add_prerequisite("uranium-mining", "planet-discovery-nauvis")
 end
 --- Uranium processing
 data.raw["technology"]["uranium-processing"].essential = true
-if settings.startup["aps-planet"].value == "nauvis" then
+if settings.startup["aps-planet"].value == "none" then
     util.add_prerequisite("uranium-processing", "concrete")
 end
 
