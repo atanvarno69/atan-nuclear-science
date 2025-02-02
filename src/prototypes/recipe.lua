@@ -7,12 +7,12 @@ local recipes = {
         energy_required = 5, -- NOTE: will be doubled to 10 in data-updates
         ingredients = {
             { type = "item", name = "uranium-235", amount = 1 },
-            { type = "item", name = "water-barrel", amount = 10 },
-            { type = "item", name = "concrete", amount = 5 },
+            { type = "item", name = "water-barrel", amount = 20 },
+            { type = "item", name = "concrete", amount = 10 },
         },
         results = {
-            { type = "item", name = "nuclear-science-pack", amount = 1 },
-            { type = "item", name = "barrel", amount = 10, ignored_by_productivity = 10 },
+            { type = "item", name = "nuclear-science-pack", amount = 2 },
+            { type = "item", name = "barrel", amount = 20, ignored_by_productivity = 20 },
         },
         main_product = "nuclear-science-pack",
         allow_productivity = true,
