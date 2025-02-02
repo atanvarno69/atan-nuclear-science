@@ -24,24 +24,6 @@ local recipes = {
             },
         },
     },
-    {
-        type = "recipe",
-        name = "atan-atom-forge",
-        category = "centrifuging-or-crafting",
-        enabled = false,
-        energy_required = 6, -- NOTE: will be doubled to 12 in data-updates
-        ingredients = {
-            { type = "item", name = "centrifuge", amount = 1 },
-            { type = "item", name = "steel-plate", amount = 50 },
-            { type = "item", name = "processing-unit", amount = 30 },
-            { type = "item", name = "refined-concrete", amount = 20 },
-        },
-        results = {
-            { type = "item", name = "atan-atom-forge", amount = 1 },
-        },
-        main_product = "atan-atom-forge",
-        allow_productivity = false,
-    },
 }
 if settings.startup["atan-science-from-plutonium"].value == true then
     recipes[#recipes + 1] = {

@@ -1,4 +1,10 @@
 local atan_settings = {
+    ["atan-nuclear-centrifuge-base-productivity"] = {
+        type = "bool-setting",
+        name = "atan-nuclear-centrifuge-base-productivity",
+        setting_type = "startup",
+        default_value = false,
+    },
     ["atan-science-from-plutonium"] = {
         type = "bool-setting",
         name = "atan-science-from-plutonium",
