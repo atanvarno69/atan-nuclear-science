@@ -1,4 +1,5 @@
 local item_sounds = require("__base__.prototypes.item_sounds")
+local tint = require("__base__.prototypes.item-tints")
 
 data:extend({
     {
@@ -19,7 +20,7 @@ data:extend({
         durability_description_key = "description.science-pack-remaining-amount-key",
         factoriopedia_durability_description_key = "description.factoriopedia-science-pack-remaining-amount-key",
         durability_description_value = "description.science-pack-remaining-amount-value",
-        random_tint_color = require("__base__.prototypes.item-tints").bluish_science,
+        random_tint_color = tint.bluish_science,
         pictures = {
             layers = {
                 {
@@ -37,5 +38,20 @@ data:extend({
                 },
             },
         },
+    },
+    {
+        type = "item",
+        name = "atan-atom-forge",
+        icon = "__atan-nuclear-science__/graphics/icons/atom-forge.png",
+        subgroup = "production-machine",
+        order = "fa[atom-forge]",
+        inventory_move_sound = item_sounds.mechanical_inventory_move,
+        pick_sound = item_sounds.mechanical_inventory_pickup,
+        drop_sound = item_sounds.mechanical_inventory_move,
+        place_result = "atan-atom-forge",
+        stack_size = 20,
+        default_import_location = "nauvis",
+        weight = 200 * kg,
+        random_tint_color = tint.iron_rust,
     },
 })

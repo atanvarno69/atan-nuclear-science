@@ -16,7 +16,18 @@ end
 
 -- Double nuclear recipe crafting time
 for recipe_name, _ in pairs(data.raw["recipe"]) do
-    if util.is_centrifuging_recipe(recipe_name) then
-        util.double_crafting_time(recipe_name)
-    end
+    if util.is_centrifuging_recipe(recipe_name) then util.double_crafting_time(recipe_name) end
+end
+
+local atom_forgable = {
+    "centrifuge",
+    "automation-science-pack",
+    "logistic-science-pack",
+    "military-science-pack",
+    "chemical-science-pack",
+    "production-science-pack",
+    "utility-science-pack",
+}
+for _, pack in pairs(atom_forgable) do
+    if data.raw["recipe"][pack] then data.raw["recipe"][pack].category = "advanced-centrifuging-or-crafting" end
 end

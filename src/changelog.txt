@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2025-02-##
+  Changes:
+    - WARNING: Backwards compatibility breaking version.
+    - Add atom forge entity and technology.
+    - Revert centrifuge crafting speed to 1. The atom forge has a crafting speed of 2 instead.
+    - Revert centrifuge modules slots to 2. The atom forge has 4 module slots instead.
+    - Remove option to grant base productivity to centrifuge. The atom forge has base productivity instead.
+    - Remove ru translation. This is out of date and I'm unable to update it.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.7
 Date: 2025-02-02
   Bugfixes:

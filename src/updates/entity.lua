@@ -9,8 +9,7 @@ table.insert(data.raw["character"]["character"].crafting_categories, "centrifugi
 -- Centrifuge
 local centrifuge = data.raw["assembling-machine"]["centrifuge"]
 table.insert(centrifuge.crafting_categories, "centrifuging-or-crafting")
-centrifuge.crafting_speed = 2
-centrifuge.module_slots = 4
+centrifuge.crafting_speed = 1.5
 
 -- Labs
 table.insert(data.raw["lab"]["lab"].inputs, "nuclear-science-pack")

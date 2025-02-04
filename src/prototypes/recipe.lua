@@ -17,11 +17,28 @@ local recipes = {
         main_product = "nuclear-science-pack",
         allow_productivity = true,
         surface_conditions = {
-            {
-                property = "pressure",
-                min = 1000,
-                max = 1000,
-            },
+            { property = "pressure", min = 1000, max = 1000 },
+        },
+    },
+    {
+        type = "recipe",
+        name = "atan-atom-forge",
+        category = "advanced-centrifuging-or-crafting",
+        enabled = false,
+        energy_required = 12,
+        ingredients = {
+            { type = "item", name = "centrifuge", amount = 1 },
+            { type = "item", name = "steel-plate", amount = 50 },
+            { type = "item", name = "processing-unit", amount = 30 },
+            { type = "item", name = "refined-concrete", amount = 20 },
+        },
+        results = {
+            { type = "item", name = "atan-atom-forge", amount = 1 },
+        },
+        main_product = "atan-atom-forge",
+        allow_productivity = false,
+        surface_conditions = {
+            { property = "pressure", min = 1000, max = 1000 },
         },
     },
 }
@@ -31,7 +48,7 @@ if settings.startup["atan-science-from-plutonium"].value == true then
         name = "nuclear-science-pack-from-plutonium",
         category = "centrifuging",
         enabled = false,
-        energy_required = 10, -- NOTE: will be doubled to 10 in data-updates
+        energy_required = 10, -- NOTE: will be doubled to 20 in data-updates
         ingredients = {
             { type = "item", name = "plutonium-239", amount = 1 },
             { type = "item", name = "water-barrel", amount = 20 },
@@ -59,11 +76,7 @@ if settings.startup["atan-science-from-plutonium"].value == true then
             },
         },
         surface_conditions = {
-            {
-                property = "pressure",
-                min = 1000,
-                max = 1000,
-            },
+            { property = "pressure", min = 1000, max = 1000 },
         },
     }
 end
