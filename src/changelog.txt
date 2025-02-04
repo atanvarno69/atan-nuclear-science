@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.6
+Version: 0.2.7
 Date: 2025-02-02
   Bugfixes:
     - Fix compatibility with Any Planet Start's breaking setting change.
