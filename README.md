@@ -22,13 +22,13 @@ When starting the game elsewhere, with [Any Planet Start](https://mods.factorio.
 | --: | :-- |
 | **Trigger** | crafting ![](https://wiki.factorio.com/images/thumb/Uranium-235.png/16px-Uranium-235.png) uranium-235 |
 | **Requires** | Uranium processing |
-| **Unlocks** | ![](./img/nuclear-science-pack-16.png) Nuclear science pack |
+| **Unlocks** | ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) Nuclear science pack |
 
 | | Atom forge |
 | --: | :-- |
-| **Cost** | 45 s ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/16px-Chemical_science_pack.png) ![](./img/nuclear-science-pack-16.png) × 500 |
+| **Cost** | 45 s ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/16px-Chemical_science_pack.png) ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) × 500 |
 | **Requires** | Nuclear science pack, Processing unit |
-| **Unlocks** | ![](./img/atom-forge-16.png) Atom forge |
+| **Unlocks** | ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) Atom forge |
 
 These technologies are altered to require nuclear science packs to research:
 
@@ -51,7 +51,7 @@ These technologies are altered to require nuclear science packs to research:
 | ![](https://wiki.factorio.com/images/thumb/Spidertron_%28research%29.png/32px-Spidertron_%28research%29.png) | Spidertron | |
 | ![](https://wiki.factorio.com/images/thumb/Uranium_ammo_%28research%29.png/32px-Uranium_ammo_%28research%29.png) | Uranium ammo | |
 
-Kovarex enrichment process, by default, costs 50 ![](./img/nuclear-science-pack-16.png) nuclear science packs plus 1000 of each ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) automation science pack, ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) logistic science pack, ![](https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/16px-Chemical_science_pack.png) chemical science pack and ![](https://wiki.factorio.com/images/thumb/Production_science_pack.png/16px-Production_science_pack.png) production science pack.
+Kovarex enrichment process, by default, costs 50 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science packs plus 1000 of each ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) automation science pack, ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) logistic science pack, ![](https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/16px-Chemical_science_pack.png) chemical science pack and ![](https://wiki.factorio.com/images/thumb/Production_science_pack.png/16px-Production_science_pack.png) production science pack.
 
 A setting is provided to instead make it a trigger technology, requiring crafting 40 ![](https://wiki.factorio.com/images/thumb/Uranium-235.png/16px-Uranium-235.png) uranium-235.
 
@@ -71,11 +71,11 @@ These recipes can now be crafted in a ![](https://wiki.factorio.com/images/thumb
 * ![](https://wiki.factorio.com/images/thumb/Uranium_fuel_cell.png/16px-Uranium_fuel_cell.png) uranium fuel cell
 * ![](https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/16px-Uranium_rounds_magazine.png) uranium rounds magazine
 
-### ![](./img/atom-forge-16.png) Atom forge
+### ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) Atom forge
 
-The ![](./img/atom-forge-16.png) atom forge is a 6 × 6 tile building with crafting speed 2, 4 module slots and 50% base productivity. It may only be crafted on Nauvis. It can craft all the recipes a centrifuge can, and:
+The ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) atom forge is a 6 × 6 tile building with crafting speed 2, 4 module slots and 50% base productivity. It may only be crafted on Nauvis. It can craft all the recipes a centrifuge can, and:
 
-* ![](./img/atom-forge-16.png) atom forge
+* ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) atom forge
 * ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge
 * ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) automation science pack
 * ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) logistic science pack
@@ -88,13 +88,13 @@ The ![](./img/atom-forge-16.png) atom forge is a 6 × 6 tile building with craft
 
 ### Nuclear science pack
 
-> 20 s + 1 ![](https://wiki.factorio.com/images/thumb/Uranium-235.png/16px-Uranium-235.png) uranium-235 + 20 ![](./img/water-barrel-16.png) water barrel + 10 ![](https://wiki.factorio.com/images/thumb/Concrete.png/16px-Concrete.png) concrete → 2 ![](./img/nuclear-science-pack-16.png) nuclear science pack + 20 ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel
+> 20 s + 1 ![](https://wiki.factorio.com/images/thumb/Uranium-235.png/16px-Uranium-235.png) uranium-235 + 20 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/water-barrel-16.png) water barrel + 10 ![](https://wiki.factorio.com/images/thumb/Concrete.png/16px-Concrete.png) concrete → 2 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack + 20 ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel
 
 The ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel product is unaffected by productivity.
 
 ### Atom forge
 
-> 12 s + 1 ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge + 50 ![](https://wiki.factorio.com/images/thumb/Steel_plate.png/16px-Steel_plate.png) steel plate + 30 ![](https://wiki.factorio.com/images/thumb/Processing_unit.png/16px-Processing_unit.png) processing unit + 20 ![](https://wiki.factorio.com/images/thumb/Refined_concrete.png/16px-Refined_concrete.png) refined concrete → 1 ![](./img/atom-forge-16.png) atom forge
+> 12 s + 1 ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge + 50 ![](https://wiki.factorio.com/images/thumb/Steel_plate.png/16px-Steel_plate.png) steel plate + 30 ![](https://wiki.factorio.com/images/thumb/Processing_unit.png/16px-Processing_unit.png) processing unit + 20 ![](https://wiki.factorio.com/images/thumb/Refined_concrete.png/16px-Refined_concrete.png) refined concrete → 1 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) atom forge
 
 ### Other recipes
 
@@ -110,12 +110,12 @@ When starting off Nauvis, Uranium mining requires Planet discovery Nauvis and Ur
 
 ### [Plutonium Energy](https://mods.factorio.com/mod/PlutoniumEnergy)
 
-Plutonium technologies require ![](./img/nuclear-science-pack-16.png) nuclear science packs to research. Recipes involving plutonium can be made in a centrifuge ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge or ![](./img/atom-forge-16.png) atom forge.
+Plutonium technologies require ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science packs to research. Recipes involving plutonium can be made in a centrifuge ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge or ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) atom forge.
 
-An alternative ![](./img/nuclear-science-pack-16.png) nuclear science pack recipe is also available:
+An alternative ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack recipe is also available:
 
 
-> 20 s + 1 ![](./img/pu-239-16.png) plutonium-239 + 20 ![](./img/water-barrel-16.png) water barrel + 10 ![](https://wiki.factorio.com/images/thumb/Concrete.png/16px-Concrete.png) concrete → 10 ![](./img/nuclear-science-pack-16.png) nuclear science pack + 20 ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel
+> 20 s + 1 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/pu-239-16.png) plutonium-239 + 20 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/water-barrel-16.png) water barrel + 10 ![](https://wiki.factorio.com/images/thumb/Concrete.png/16px-Concrete.png) concrete → 10 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack + 20 ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel
 
 ## Credits
 
