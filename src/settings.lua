@@ -10,7 +10,7 @@ local atan_settings = {
         name = "atan-kovarex-mode",
         setting_type = "startup",
         default_value = "cheap",
-        allowed_values = { "cheap", "expensive", "trigger" },
+        allowed_values = { "cheap", "trigger" },
     },
 }
 
