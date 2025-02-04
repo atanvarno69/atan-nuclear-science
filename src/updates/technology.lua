@@ -55,14 +55,10 @@ data.raw["technology"]["uranium-mining"].essential = true
 data.raw["technology"]["uranium-mining"].prerequisites = { "electric-mining-drill", "sulfur-processing" }
 data.raw["technology"]["uranium-mining"].unit = nil
 data.raw["technology"]["uranium-mining"].research_trigger = { type = "craft-fluid", fluid = "sulfuric-acid" }
-if settings.startup["aps-planet"].value ~= "nauvis" then
-    util.add_prerequisite("uranium-mining", "planet-discovery-nauvis")
-end
+if settings.startup["aps-planet"].value ~= "none" then util.add_prerequisite("uranium-mining", "planet-discovery-nauvis") end
 --- Uranium processing
 data.raw["technology"]["uranium-processing"].essential = true
-if settings.startup["aps-planet"].value == "nauvis" then
-    util.add_prerequisite("uranium-processing", "concrete")
-end
+if settings.startup["aps-planet"].value == "none" then util.add_prerequisite("uranium-processing", "concrete") end
 
 -- Kovarex setting adjustment
 if settings.startup["atan-kovarex-mode"].value == "trigger" then
@@ -72,13 +68,19 @@ if settings.startup["atan-kovarex-mode"].value == "trigger" then
         item = "uranium-235",
         count = 40,
     }
-elseif settings.startup["atan-kovarex-mode"].value == "cheap" then
+else
     local kovarex = data.raw["technology"]["kovarex-enrichment-process"]
-    kovarex.unit.time = kovarex.unit.time * 75
-    kovarex.unit.count = kovarex.unit.count / 100
+    kovarex.unit.time = kovarex.unit.time * 20
+    kovarex.unit.count = kovarex.unit.count / 20
     for _, ingredient in pairs(kovarex.unit.ingredients) do
-        if ingredient[1] ~= "nuclear-science-pack" then
-            ingredient[2] = ingredient[2] * 75
-        end
+        if ingredient[1] ~= "nuclear-science-pack" then ingredient[2] = ingredient[2] * 20 end
     end
+end
+
+-- TODO: move to Lignumis compatability
+local power = data.raw["technology"]["nuclear-power"]
+power.unit.time = power.unit.time * 20
+power.unit.count = power.unit.count / 20
+for _, ingredient in pairs(power.unit.ingredients) do
+    if ingredient[1] ~= "nuclear-science-pack" then ingredient[2] = ingredient[2] * 20 end
 end

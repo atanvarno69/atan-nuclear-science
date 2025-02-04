@@ -4,15 +4,15 @@ local recipes = {
         name = "nuclear-science-pack",
         category = "centrifuging",
         enabled = false,
-        energy_required = 5, -- NOTE: will be doubled to 10 in data-updates
+        energy_required = 10, -- NOTE: will be doubled to 20 in data-updates
         ingredients = {
             { type = "item", name = "uranium-235", amount = 1 },
-            { type = "item", name = "water-barrel", amount = 10 },
-            { type = "item", name = "concrete", amount = 5 },
+            { type = "item", name = "water-barrel", amount = 20 },
+            { type = "item", name = "concrete", amount = 10 },
         },
         results = {
-            { type = "item", name = "nuclear-science-pack", amount = 1 },
-            { type = "item", name = "barrel", amount = 10, ignored_by_productivity = 10 },
+            { type = "item", name = "nuclear-science-pack", amount = 2 },
+            { type = "item", name = "barrel", amount = 20, ignored_by_productivity = 20 },
         },
         main_product = "nuclear-science-pack",
         allow_productivity = true,
@@ -24,24 +24,6 @@ local recipes = {
             },
         },
     },
-    {
-        type = "recipe",
-        name = "atan-atom-forge",
-        category = "centrifuging-or-crafting",
-        enabled = false,
-        energy_required = 6, -- NOTE: will be doubled to 12 in data-updates
-        ingredients = {
-            { type = "item", name = "centrifuge", amount = 1 },
-            { type = "item", name = "steel-plate", amount = 50 },
-            { type = "item", name = "processing-unit", amount = 30 },
-            { type = "item", name = "refined-concrete", amount = 20 },
-        },
-        results = {
-            { type = "item", name = "atan-atom-forge", amount = 1 },
-        },
-        main_product = "atan-atom-forge",
-        allow_productivity = false,
-    },
 }
 if settings.startup["atan-science-from-plutonium"].value == true then
     recipes[#recipes + 1] = {
@@ -49,15 +31,15 @@ if settings.startup["atan-science-from-plutonium"].value == true then
         name = "nuclear-science-pack-from-plutonium",
         category = "centrifuging",
         enabled = false,
-        energy_required = 5, -- NOTE: will be doubled to 10 in data-updates
+        energy_required = 10, -- NOTE: will be doubled to 10 in data-updates
         ingredients = {
             { type = "item", name = "plutonium-239", amount = 1 },
-            { type = "item", name = "water-barrel", amount = 10 },
-            { type = "item", name = "concrete", amount = 5 },
+            { type = "item", name = "water-barrel", amount = 20 },
+            { type = "item", name = "concrete", amount = 10 },
         },
         results = {
-            { type = "item", name = "nuclear-science-pack", amount = 5 },
-            { type = "item", name = "barrel", amount = 10, ignored_by_productivity = 10 },
+            { type = "item", name = "nuclear-science-pack", amount = 10 },
+            { type = "item", name = "barrel", amount = 20, ignored_by_productivity = 20 },
         },
         main_product = "nuclear-science-pack",
         allow_productivity = true,
