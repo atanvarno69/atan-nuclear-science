@@ -9,6 +9,11 @@ Date: 2025-02-##
     - Remove option to grant base productivity to centrifuge. The atom forge has base productivity instead.
     - Remove ru translation. This is out of date and I'm unable to update it.
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2025-02-02
+  Bugfixes:
+    - Fix compatibility with Any Planet Start's breaking setting change.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.6
 Date: 2025-02-02
   Bugfixes:
