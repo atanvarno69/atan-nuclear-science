@@ -1,7 +1,7 @@
--- Compatibility
-require("compatibility.plutonium-energy")
+require("compatibility.plutonium-energy.data-updates")
 
--- Base
-require("updates.entity")
-require("updates.recipe")
-require("updates.technology")
+require("prototypes.entity-updates")
+require("prototypes.recipe-updates")
+require("prototypes.technology-updates")
+
+require("compatibility.any-planet-start.data-updates")

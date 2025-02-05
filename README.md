@@ -15,16 +15,16 @@ When starting the game elsewhere, with [Any Planet Start](https://mods.factorio.
 | ![](https://wiki.factorio.com/images/thumb/Uranium_processing_%28research%29.png/32px-Uranium_processing_%28research%29.png) | Uranium processing |
 | --: | :-- |
 | **Trigger** | mining ![](https://wiki.factorio.com/images/thumb/Uranium_ore.png/16px-Uranium_ore.png) uranium ore |
-| **Requires** | Uranium mining |
+| **Requires** | Concrete, Uranium mining |
 | **Unlocks** | ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) Centrifuge ![](https://wiki.factorio.com/images/thumb/Uranium_processing.png/16px-Uranium_processing.png) Uranium processing |
 
-| | Nuclear science pack |
+| ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-32.png) | Nuclear science pack |
 | --: | :-- |
 | **Trigger** | crafting ![](https://wiki.factorio.com/images/thumb/Uranium-235.png/16px-Uranium-235.png) uranium-235 |
 | **Requires** | Uranium processing |
 | **Unlocks** | ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) Nuclear science pack |
 
-| | Atom forge |
+| ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-32.png) | Atom forge |
 | --: | :-- |
 | **Cost** | 45 s ![](https://wiki.factorio.com/images/thumb/Automation_science_pack.png/16px-Automation_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/16px-Logistic_science_pack.png) ![](https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/16px-Chemical_science_pack.png) ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) × 500 |
 | **Requires** | Nuclear science pack, Processing unit |
@@ -41,12 +41,12 @@ These technologies are altered to require nuclear science packs to research:
 | ![](https://wiki.factorio.com/images/thumb/Legendary_quality_%28research%29.png/32px-Legendary_quality_%28research%29.png) | Legendary quality | |
 | ![](https://wiki.factorio.com/images/thumb/Nuclear_fuel_reprocessing_%28research%29.png/32px-Nuclear_fuel_reprocessing_%28research%29.png) | Nuclear fuel reprocessing | |
 | ![](https://wiki.factorio.com/images/thumb/Nuclear_power_%28research%29.png/32px-Nuclear_power_%28research%29.png) | Nuclear power | |
-| ![](https://wiki.factorio.com/images/thumb/Physical_projectile_damage_%28research%29.png/32px-Physical_projectile_damage_%28research%29.png) | Physical projectile damage 7-∞ | |
+| ![](https://wiki.factorio.com/images/thumb/Physical_projectile_damage_%28research%29.png/32px-Physical_projectile_damage_%28research%29.png) | Physical projectile damage 7–∞ | |
 | ![](https://wiki.factorio.com/images/thumb/Planet_discovery_Aquilo_%28research%29.png/32px-Planet_discovery_Aquilo_%28research%29.png) | Planet discovery Aquilo | |
 | ![](https://wiki.factorio.com/images/thumb/Portable_fission_reactor_%28research%29.png/32px-Portable_fission_reactor_%28research%29.png) | Portable fission reactor | |
 | ![](https://wiki.factorio.com/images/thumb/Portable_fusion_reactor_%28research%29.png/32px-Portable_fusion_reactor_%28research%29.png) | Portable fusion reactor | |
 | ![](https://wiki.factorio.com/images/thumb/Promethium_science_pack_%28research%29.png/32px-Promethium_science_pack_%28research%29.png) | Promethium science pack | |
-| ![](https://wiki.factorio.com/images/thumb/Railgun_shooting_speed_%28research%29.png/32px-Railgun_shooting_speed_%28research%29.png) | Railgun shooting speed 1-∞ | |
+| ![](https://wiki.factorio.com/images/thumb/Railgun_shooting_speed_%28research%29.png/32px-Railgun_shooting_speed_%28research%29.png) | Railgun shooting speed 1–∞ | |
 | ![](https://wiki.factorio.com/images/thumb/Research_productivity_%28research%29.png/32px-Research_productivity_%28research%29.png) | Research productivity | |
 | ![](https://wiki.factorio.com/images/thumb/Spidertron_%28research%29.png/32px-Spidertron_%28research%29.png) | Spidertron | |
 | ![](https://wiki.factorio.com/images/thumb/Uranium_ammo_%28research%29.png/32px-Uranium_ammo_%28research%29.png) | Uranium ammo | |
@@ -92,9 +92,13 @@ The ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/
 
 The ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel product is unaffected by productivity.
 
+May only be crafted on Nauvis.
+
 ### Atom forge
 
 > 12 s + 1 ![](https://wiki.factorio.com/images/thumb/Centrifuge.png/16px-Centrifuge.png) centrifuge + 50 ![](https://wiki.factorio.com/images/thumb/Steel_plate.png/16px-Steel_plate.png) steel plate + 30 ![](https://wiki.factorio.com/images/thumb/Processing_unit.png/16px-Processing_unit.png) processing unit + 20 ![](https://wiki.factorio.com/images/thumb/Refined_concrete.png/16px-Refined_concrete.png) refined concrete → 1 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-16.png) atom forge
+
+May only be crafted on Nauvis.
 
 ### Other recipes
 
@@ -106,7 +110,7 @@ All recipes that can be crafted by a ![](https://wiki.factorio.com/images/thumb/
 
 This mod is designed to be used with Any Planet Start, though it can be used stand alone.
 
-When starting off Nauvis, Uranium mining requires Planet discovery Nauvis and Uranium processing requires Concrete.
+When starting off Nauvis, Uranium mining requires Planet discovery Nauvis and Uranium processing doesn't require Concrete.
 
 ### [Plutonium Energy](https://mods.factorio.com/mod/PlutoniumEnergy)
 

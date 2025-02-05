@@ -1,13 +1,20 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
-Date: 2025-02-##
+Date: 2025-02-06
   Changes:
     - WARNING: Backwards compatibility breaking version.
     - Add atom forge entity and technology.
-    - Revert centrifuge crafting speed to 1. The atom forge has a crafting speed of 2 instead.
+    - Remove Kovarex expensive option.
+    - Change Kovarex default option to cost 50 nuclear science pack and 1000 of each other pack.
+    - Change centrifuge crafting speed to 1.5. The atom forge has a crafting speed of 2 instead.
     - Revert centrifuge modules slots to 2. The atom forge has 4 module slots instead.
+    - Revert centrifuge's Nauvis-only crafting.
     - Remove option to grant base productivity to centrifuge. The atom forge has base productivity instead.
-    - Remove ru translation. This is out of date and I'm unable to update it.
+    - Change mod thumbnail.
+    - Update README / mod portal page.
+    - Restructure entire codebase.
+  Locale:
+    - Remove ru translation. This is out of date and I'm unable to maintain it.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.7
 Date: 2025-02-02
