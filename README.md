@@ -4,6 +4,8 @@ Adds nuclear science as Nauvis's science pack.
 
 When starting the game elsewhere, with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), Nauvis feels out of place as there is little reason to go there for game progression. This mod makes Nauvis more like the other planets, providing its own science pack that is required to get to Aquilo and beyond, technology progression analagous to the other planets and its own special building, the Atom forge.
 
+![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/atom-forge-preview1.png)
+
 ## Technologies
 
 | ![](https://wiki.factorio.com/images/thumb/Uranium_mining_%28research%29.png/32px-Uranium_mining_%28research%29.png) | Uranium mining |

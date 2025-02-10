@@ -1,7 +1,9 @@
 # TODO
 
+## 0.3.0
+
 - [X] In line images for README
-- [ ] Gallery
+- [X] Gallery
 - [X] Update README
 - [X] Atom forge circuit wire placement
 - [X] Atom forge preview margins

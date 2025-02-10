@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
-Date: 2025-02-06
+Date: 2025-02-10
   Changes:
     - WARNING: Backwards compatibility breaking version.
     - Add atom forge entity and technology.
