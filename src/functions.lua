@@ -53,6 +53,7 @@ function M.recipe.is_centrifuging(recipe_name)
         return false
     end
     local category = data.raw["recipe"].category
+    -- Don't include advanced-centrifuging-or-crafting
     return category == "centrifuging" or category == "centrifuging-or-crafting"
 end
 
