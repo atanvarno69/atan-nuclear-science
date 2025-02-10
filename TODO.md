@@ -1,5 +1,11 @@
 # TODO
 
+## 0.3.1
+
+- [ ] Rationalize centrifuge and atom forge stack size and rocket capacity
+- [ ] Make atom forge recipe more expensive
+- [ ] `shift = util.by_pixel(0, -16)` on atom forge graphics definitions -- graphics half a tile too low currently
+
 ## 0.3.0
 
 - [X] In line images for README
