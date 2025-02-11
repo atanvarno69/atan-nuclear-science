@@ -109,7 +109,7 @@ function M.tech.has_ingredient(tech, ingredient)
         return false
     end
     for _, extant in pairs(tech.unit.ingredients) do
-        if extant == ingredient then
+        if extant[1] == ingredient[1] then
             return true
         end
     end
