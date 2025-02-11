@@ -1,6 +1,11 @@
 # TODO
 
-## 0.3.1
+## Compatability
+
+- [ ] Schall Uranium Processing
+- [ ] Schall Radioactive Waste
+
+## Next feature version
 
 - [ ] Rationalize centrifuge and atom forge stack size and rocket capacity
 - [ ] Make atom forge recipe more expensive
