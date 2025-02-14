@@ -1,11 +1,5 @@
 # TODO
 
-## Improvements
-
-- [X] Multiple atom forges are too loud
-- [X] Update nuclear science pack sprites from upstream (edited to keep old colour)
-- [X] `shift = util.by_pixel(0, -16)` on atom forge graphics definitions -- graphics half a tile too low currently
-
 ## Compatability
 
 - [ ] Schall Uranium Processing
@@ -14,11 +8,18 @@
 
 ## Next feature version
 
-- [-] Rationalize centrifuge and atom forge stack size and rocket capacity
 - [ ] Make atom forge recipe more expensive. Ideas:
   * a large amount of uranium-238
   * an additionnal item that you can only get from refining depleted uranium fuel
 - [ ] Investigate [Cerys](https://mods.factorio.com/mod/Cerys-Moon-of-Fulgora)' fluid input for nuclear recipes
+
+## 0.3.2
+
+- [X] Rationalize centrifuge and atom forge stack size and rocket capacity
+- [X] Multiple atom forges are too loud
+- [X] Update nuclear science pack sprites from upstream (edited to keep old colour)
+- [X] `shift = util.by_pixel(0, -16)` on atom forge graphics definitions -- graphics half a tile too low currently
+- [ ] Update gallery images for centrifuge and atom forge changes
 
 ## 0.3.0
 

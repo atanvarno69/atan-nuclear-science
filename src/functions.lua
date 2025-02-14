@@ -1,8 +1,16 @@
 local M = {
     entity = {},
+    item = {},
     recipe = {},
     tech = {},
 }
+
+function M.item.set_weight(item_name, weight)
+    if not data.raw["item"][item_name] then
+        return
+    end
+    data.raw["item"][item_name].weight = weight
+end
 
 function M.entity.add_crafting_category(entity_type, entity_name, category)
     if not data.raw[entity_type] then

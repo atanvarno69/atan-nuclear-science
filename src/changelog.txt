@@ -2,6 +2,7 @@
 Version: 0.3.2
 Date: 2025-02-14
   Changes:
+    - Change centrifuge rocket capacity to 10.
     - Change atom forge stack size to 10.
     - Change atom forge rocket capacity to 1.
     - Reduce atom forge working sounds volume.
