@@ -1,9 +1,15 @@
 # TODO
 
+## Improvements
+
+- [ ] Multiple atom forges are too loud
+- [ ] Update nuclear science pack sprites from upstream
+
 ## Compatability
 
 - [ ] Schall Uranium Processing
 - [ ] Schall Radioactive Waste
+- [ ] Bluetonium
 
 ## Next feature version
 
