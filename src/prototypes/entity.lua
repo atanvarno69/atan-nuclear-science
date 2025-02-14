@@ -49,7 +49,7 @@ data:extend({
             fade_in_ticks = 4,
             fade_out_ticks = 20,
             audible_distance_modifier = 0.6,
-            max_sounds_per_type = 2,
+            max_sounds_per_prototype = 2,
             main_sounds = {
                 {
                     sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-1.ogg", volume = 0.2 },
