@@ -5,6 +5,7 @@ Date: 2025-02-14
     - Reduced atom forge working sounds volume.
   Bugfixes:
     - Fix limit of atom forges that can play their working sounds.
+    - Remove squiggle from nuclear science pack technology 256 mipmap.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2025-02-11
