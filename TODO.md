@@ -14,7 +14,7 @@
 
 ## Next feature version
 
-- [ ] Rationalize centrifuge and atom forge stack size and rocket capacity
+- [-] Rationalize centrifuge and atom forge stack size and rocket capacity
 - [ ] Make atom forge recipe more expensive. Ideas:
   * a large amount of uranium-238
   * an additionnal item that you can only get from refining depleted uranium fuel

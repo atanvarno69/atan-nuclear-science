@@ -49,9 +49,9 @@ data:extend({
         pick_sound = item_sounds.mechanical_inventory_pickup,
         drop_sound = item_sounds.mechanical_inventory_move,
         place_result = "atan-atom-forge",
-        stack_size = 20,
+        stack_size = 10,
         default_import_location = "nauvis",
-        weight = 200 * kg,
         random_tint_color = tint.iron_rust,
+        weight = 1000 * kg,
     },
 })
