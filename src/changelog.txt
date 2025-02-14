@@ -2,7 +2,8 @@
 Version: 0.3.2
 Date: 2025-02-14
   Changes:
-    - Reduced atom forge working sounds volume.
+    - Reduce atom forge working sounds volume.
+    - Move atom forge sprite up by half a tile.
   Bugfixes:
     - Fix limit of atom forges that can play their working sounds.
     - Remove squiggle from nuclear science pack technology 256 mipmap.

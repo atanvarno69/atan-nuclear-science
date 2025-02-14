@@ -1,10 +1,10 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 
 local circuit_connector = circuit_connector_definitions.create_vector(universal_connector_template, {
-    { variation = 25, main_offset = util.by_pixel(4, 104), shadow_offset = util.by_pixel(6, 106), show_shadow = true },
-    { variation = 25, main_offset = util.by_pixel(4, 104), shadow_offset = util.by_pixel(6, 106), show_shadow = true },
-    { variation = 25, main_offset = util.by_pixel(4, 104), shadow_offset = util.by_pixel(6, 106), show_shadow = true },
-    { variation = 25, main_offset = util.by_pixel(4, 104), shadow_offset = util.by_pixel(6, 106), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
+    { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
 })
 
 data:extend({
@@ -23,7 +23,7 @@ data:extend({
         circuit_connector = circuit_connector,
         collision_box = { { -2.7, -2.7 }, { 2.7, 2.7 } },
         selection_box = { { -3, -3 }, { 3, 3 } },
-        drawing_box_vertical_extension = 0.5,
+        drawing_box_vertical_extension = 1,
         heating_energy = "300kW",
         damaged_trigger_effect = require("__base__.prototypes.entity.hit-effects").entity(),
         effect_receiver = { base_effect = { productivity = 0.5 } },
@@ -75,6 +75,7 @@ data:extend({
                         draw_as_shadow = true,
                         animation_speed = 0.3,
                         scale = 0.5,
+                        shift = util.by_pixel(0, -16),
                     },
                     {
                         priority = "high",
@@ -83,6 +84,7 @@ data:extend({
                         frame_count = 80,
                         animation_speed = 0.3,
                         scale = 0.5,
+                        shift = util.by_pixel(0, -16),
                         stripes = {
                             {
                                 filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-animation-1.png",
@@ -111,6 +113,7 @@ data:extend({
                         scale = 0.5,
                         animation_speed = 0.3,
                         blend_mode = "additive",
+                        shift = util.by_pixel(0, -16),
                         stripes = {
                             {
                                 filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-emission-1.png",
