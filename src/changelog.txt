@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2025-02-14
+  Changes:
+    - Reduced atom forge working sounds volume.
+  Bugfixes:
+    - Fix limit of atom forges that can play their working sounds.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2025-02-11
   Bugfixes:

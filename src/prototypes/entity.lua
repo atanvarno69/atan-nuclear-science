@@ -52,11 +52,11 @@ data:extend({
             max_sounds_per_prototype = 2,
             main_sounds = {
                 {
-                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-1.ogg", volume = 0.2 },
+                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-1.ogg", volume = 0.1 },
                     audible_distance_modifier = 0.5,
                 },
                 {
-                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-2.ogg", volume = 0.6 },
+                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-2.ogg", volume = 0.5 },
                     audible_distance_modifier = 0.6,
                 },
             },

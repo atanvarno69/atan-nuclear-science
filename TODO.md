@@ -2,7 +2,7 @@
 
 ## Improvements
 
-- [ ] Multiple atom forges are too loud
+- [X] Multiple atom forges are too loud
 - [ ] Update nuclear science pack sprites from upstream
 - [ ] `shift = util.by_pixel(0, -16)` on atom forge graphics definitions -- graphics half a tile too low currently
 
