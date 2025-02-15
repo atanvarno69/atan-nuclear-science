@@ -31,18 +31,12 @@ data:extend({
     },
     {
         type = "technology",
-        name = "atan-ammunition-productivity-1",
-        icon = "__atan-nuclear-science__/graphics/technology/placeholder.png",
+        name = "atan-physical-ammunition-productivity-1",
+        icons = util.technology_icon_constant_recipe_productivity("__atan-nuclear-science__/graphics/technology/physical-ammunition-productivity.png"),
         icon_size = 256,
         upgrade = true,
         max_level = "infinite",
-        -- Feels wrong to require railgun when it's meant to be a Nauvis tech. However, I think the tech needs to buff
-        -- all the ammo you might want to build on a space platform to be desirable.
-        --
-        -- Could split it into seperate guns, rockets and railguns (and tesla, I guess), techs.
-        --
-        -- More thought needed.
-        prerequisites = { "railgun" },
+        prerequisites = { "nuclear-science-pack" },
         -- Placeholder. Need to think about cost.
         unit = {
             count_formula = "1.5^L*1000",
@@ -55,7 +49,6 @@ data:extend({
                 { "utility-science-pack", 1 },
                 { "space-science-pack", 1 },
                 { "nuclear-science-pack", 1 },
-                { "cryogenic-science-pack", 1 },
             },
             time = 60,
         },
@@ -63,10 +56,12 @@ data:extend({
             { type = "change-recipe-productivity", change = 0.1, recipe = "firearm-magazine" },
             { type = "change-recipe-productivity", change = 0.1, recipe = "piercing-rounds-magazine" },
             { type = "change-recipe-productivity", change = 0.1, recipe = "uranium-rounds-magazine" },
-            { type = "change-recipe-productivity", change = 0.1, recipe = "rocket" },
-            { type = "change-recipe-productivity", change = 0.1, recipe = "explosive-rocket" },
-            { type = "change-recipe-productivity", change = 0.1, recipe = "atomic-bomb" },
-            { type = "change-recipe-productivity", change = 0.1, recipe = "railgun-ammo" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "shotgun-shell" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "piercing-shotgun-shell" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "cannon-shell" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "explosive-cannon-shell" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "uranium-cannon-shell" },
+            { type = "change-recipe-productivity", change = 0.1, recipe = "explosive-uranium-cannon-shell" },
         },
     },
     {

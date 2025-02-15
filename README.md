@@ -131,3 +131,4 @@ Uranium science pack graphics from [Space Age Science Packs](https://mods.factor
 
 Atom forge sounds from [Pixabay](https://pixabay.com/), by xFromarge1 and Insu, released under the [Pixabay Content License](https://pixabay.com/service/license-summary/).
 
+Infinite technology graphics by [Jarred Allen](https://github.com/JarredAllen), released under the [MIT license](https://opensource.org/licenses/MIT).
