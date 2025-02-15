@@ -72,6 +72,17 @@ function M.recipe.set_category(recipe_name, category)
     data.raw["recipe"][recipe_name].category = category
 end
 
+function M.tech.add_effect(tech_name, effect)
+    if not data.raw["technology"][tech_name] then
+        return
+    end
+    local tech = data.raw["technology"][tech_name]
+    if not tech.effects then
+        tech.effects = {}
+    end
+    tech.effects[#tech.effects + 1] = effect
+end
+
 function M.tech.add_ingredient(tech_name, ingredient)
     if not data.raw["technology"][tech_name] or not data.raw["technology"][tech_name].unit then
         return

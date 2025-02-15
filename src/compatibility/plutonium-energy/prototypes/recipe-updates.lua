@@ -7,17 +7,15 @@ end
 -- Recipes
 local recipes = {
     "breeder-fuel-cell",
+    "explosive-plutonium-cannon-shell",
     "fission-reactor-equipment-from-plutonium",
     "fission-reactor-equipment-from-MOX-fuel",
     "MOX-fuel-cell",
     "plutonium-atomic-artillery-shell",
+    "plutonium-cannon-shell",
     "plutonium-fuel-cell",
+    "plutonium-rounds-magazine",
 }
-if settings.startup["enable-plutonium-ammo"].value then
-    recipes[#recipes + 1] = "explosive-plutonium-cannon-shell"
-    recipes[#recipes + 1] = "plutonium-cannon-shell"
-    recipes[#recipes + 1] = "plutonium-rounds-magazine"
-end
 
 for _, name in pairs(recipes) do
     util.set_category(name, "centrifuging-or-crafting")
