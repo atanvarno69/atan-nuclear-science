@@ -120,8 +120,23 @@ Plutonium technologies require ![](https://raw.githubusercontent.com/atanvarno69
 
 An alternative ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack recipe is also available:
 
-
 > 20 s + 1 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/pu-239-16.png) plutonium-239 + 20 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/water-barrel-16.png) water barrel + 10 ![](https://wiki.factorio.com/images/thumb/Concrete.png/16px-Concrete.png) concrete → 10 ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack + 20 ![](https://wiki.factorio.com/images/thumb/Barrel.png/16px-Barrel.png) barrel
+
+### Schall [Uranium Processing](https://mods.factorio.com/mod/SchallUraniumProcessing) & [Radioactive Waste](https://mods.factorio.com/mod/SchallRadioactiveWaste)
+
+**Warning:** Compatibility is experiemental. If you encounter any issues, please report them.
+
+#### Uranium Processing
+
+Schall Uranium Processing provides various options to alter uranium production chain. All of these work with this mod without breaking anything.
+
+Be aware, if you disable sulfuric acid for uranium mining, the Uranium mining technology is still part of the tech tree and required before researching Uranium processing (which is true in vanilla).
+
+Be cautious if disabling the Kovarex enrichment process recipe: Highly enriched uranium is an ingredient for ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-science/main/img/nuclear-science-pack-16.png) nuclear science pack and its production chain will create a lot of excess depleted uranium. Without Kovarex, you may not have a way to consume it all until you go to Fulgora and unlock the recycler. Or you can use Schall Radioactive Waste.
+
+#### Radioactive Waste
+
+Schall Radioactive Waste adds incineration of uranium items and used up uranium fuel cells, and an option for expanded nuclear warfare. All of these work without breaking anything.
 
 ## Credits
 

@@ -11,8 +11,8 @@
 
 ## Compatability
 
-- [ ] Schall Uranium Processing
-- [ ] Schall Radioactive Waste
+- [X] Schall Uranium Processing
+- [X] Schall Radioactive Waste
 - [ ] Bluetonium
 
 ## Infinite technology

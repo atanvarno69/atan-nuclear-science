@@ -56,6 +56,13 @@ function M.recipe.double_time(recipe_name)
     recipe.energy_required = 2 * recipe.energy_required
 end
 
+function M.recipe.hide_in_factoriopedia(recipe_name)
+    if not data.raw["recipe"][recipe_name] then
+        return
+    end
+    data.raw["recipe"][recipe_name].hidden_in_factoriopedia = true
+end
+
 function M.recipe.is_centrifuging(recipe_name)
     if not data.raw["recipe"][recipe_name] or not data.raw["recipe"].category then
         return false
