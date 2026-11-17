@@ -50,15 +50,11 @@ util.add_prerequisite("planet-discovery-aquilo", "nuclear-science-pack")
 
 -- Guided Nauvis tech chain
 --- Uranium mining
-util.make_essential("uranium-mining")
 util.set_prerequisites("uranium-mining", { "electric-mining-drill", "sulfur-processing" })
 util.set_trigger("uranium-mining", { type = "craft-fluid", fluid = "sulfuric-acid" })
 
---- Uranium processing
-util.make_essential("uranium-processing")
-
 -- Kovarex setting adjustment
-if settings.startup["atan-kovarex-mode"].value == "trigger" then
+if settings.startup["nuclear-science-continued-kovarex-mode"].value == "trigger" then
     util.set_trigger("kovarex-enrichment-process", {
         type = "craft-item",
         item = "uranium-235",

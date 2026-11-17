@@ -7,13 +7,16 @@ local circuit_connector = circuit_connector_definitions.create_vector(universal_
     { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
 })
 
+-- Load the forge pipe images
+local pipe_picture = require("__base__.prototypes.entity.assembler-pictures").assembler3pipepictures
+
 data:extend({
     {
         type = "assembling-machine",
-        name = "atan-atom-forge",
-        icon = "__atan-nuclear-science__/graphics/icons/atom-forge.png",
+        name = "nuclear-science-continued-atom-forge",
+        icon = "__nuclear-science-continued__/graphics/icons/atom-forge.png",
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
-        minable = { mining_time = 0.2, result = "atan-atom-forge" },
+        minable = { mining_time = 0.2, result = "nuclear-science-continued-atom-forge" },
         fast_replaceable_group = "atom-forge",
         max_health = 350,
         resistances = { { type = "fire", percent = 70 } },
@@ -23,6 +26,45 @@ data:extend({
         circuit_connector = circuit_connector,
         collision_box = { { -2.7, -2.7 }, { 2.7, 2.7 } },
         selection_box = { { -3, -3 }, { 3, 3 } },
+        fluid_boxes = {
+            {
+                production_type = "input",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { -1.5, -2.5 }, direction = defines.direction.north }
+                },
+            },
+            {
+                production_type = "input",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { 1.5, -2.5 }, direction = defines.direction.north }
+                },
+            },
+            {
+                production_type = "output",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { -1.5, 2.5 }, direction = defines.direction.south }
+                },
+            },
+            {
+                production_type = "output",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { 1.5, 2.5 }, direction = defines.direction.south }
+                },
+            },
+        },
+        fluid_boxes_off_when_no_fluid_recipe = true,
         drawing_box_vertical_extension = 1,
         heating_energy = "300kW",
         damaged_trigger_effect = require("__base__.prototypes.entity.hit-effects").entity(),
@@ -31,8 +73,7 @@ data:extend({
         allowed_effects = { "consumption", "speed", "productivity", "pollution", "quality" },
         crafting_categories = {
             "centrifuging",
-            "centrifuging-or-crafting",
-            "advanced-centrifuging-or-crafting",
+            "advanced-centrifuging",
         },
         crafting_speed = 2,
         energy_source = {
@@ -40,7 +81,7 @@ data:extend({
             usage_priority = "secondary-input",
             emissions_per_minute = { pollution = 6 },
         },
-        energy_usage = "2500kW",
+        energy_usage = "3500kW",
         perceived_performance = { minimum = 0.25, maximum = 20 },
         open_sound = sounds.metal_large_open,
         close_sound = sounds.metal_large_close,
@@ -52,11 +93,11 @@ data:extend({
             max_sounds_per_prototype = 2,
             main_sounds = {
                 {
-                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-1.ogg", volume = 0.1 },
+                    sound = { filename = "__nuclear-science-continued__/sound/atom-forge-working-1.ogg", volume = 0.1 },
                     audible_distance_modifier = 0.5,
                 },
                 {
-                    sound = { filename = "__atan-nuclear-science__/sound/atom-forge-working-2.ogg", volume = 0.5 },
+                    sound = { filename = "__nuclear-science-continued__/sound/atom-forge-working-2.ogg", volume = 0.5 },
                     audible_distance_modifier = 0.6,
                 },
             },
@@ -65,7 +106,7 @@ data:extend({
             animation = {
                 layers = {
                     {
-                        filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-shadow.png",
+                        filename = "__nuclear-science-continued__/graphics/atom-forge/atom-forge-shadow.png",
                         priority = "high",
                         width = 900,
                         height = 500,
@@ -87,12 +128,12 @@ data:extend({
                         shift = util.by_pixel(0, -16),
                         stripes = {
                             {
-                                filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-animation-1.png",
+                                filename = "__nuclear-science-continued__/graphics/atom-forge/atom-forge-animation-1.png",
                                 width_in_frames = 8,
                                 height_in_frames = 8,
                             },
                             {
-                                filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-animation-2.png",
+                                filename = "__nuclear-science-continued__/graphics/atom-forge/atom-forge-animation-2.png",
                                 width_in_frames = 8,
                                 height_in_frames = 2,
                             },
@@ -116,12 +157,12 @@ data:extend({
                         shift = util.by_pixel(0, -16),
                         stripes = {
                             {
-                                filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-emission-1.png",
+                                filename = "__nuclear-science-continued__/graphics/atom-forge/atom-forge-emission-1.png",
                                 width_in_frames = 8,
                                 height_in_frames = 8,
                             },
                             {
-                                filename = "__atan-nuclear-science__/graphics/atom-forge/atom-forge-emission-2.png",
+                                filename = "__nuclear-science-continued__/graphics/atom-forge/atom-forge-emission-2.png",
                                 width_in_frames = 8,
                                 height_in_frames = 2,
                             },

@@ -127,7 +127,12 @@ An alternative ![](https://raw.githubusercontent.com/atanvarno69/atan-nuclear-sc
 
 Atom forge graphics from [Factorio Buildings](https://www.figma.com/proto/y1IQG08ZG2jIeJ5sTyF4MP/Factorio-Buildings), by [Hurricane046](https://mods.factorio.com/user/Hurricane046), released under the [CC BY license](https://creativecommons.org/licenses/by/4.0/).
 
-Uranium science pack graphics from [Space Age Science Packs](https://mods.factorio.com/mod/sa-science-packs), by [ArchEzekiel](https://mods.factorio.com/user/ArchEzekiel), released under the [MIT license](https://opensource.org/licenses/MIT).
+Old Uranium science pack graphics from [Space Age Science Packs](https://mods.factorio.com/mod/sa-science-packs), by [ArchEzekiel](https://mods.factorio.com/user/ArchEzekiel), released under the [MIT license](https://opensource.org/licenses/MIT).
+
+New Uranium science pack graphics from [Radioactive Science](https://github.com/daviscook477/radioactive-science/) by [Daviscook477 / Test447](https://mods.factorio.com/user/test447) released under the [MIT license](https://opensource.org/licenses/MIT).
 
 Atom forge sounds from [Pixabay](https://pixabay.com/), by xFromarge1 and Insu, released under the [Pixabay Content License](https://pixabay.com/service/license-summary/).
 
+Original mod from [Atanvarno69](https://github.com/atanvarno69/atan-nuclear-science), [Mod portal link](https://mods.factorio.com/mod/atan-nuclear-science)
+
+Fluid fixes from [DjKolekson](https://mods.factorio.com/mod/cerys-and-nuclear-science)

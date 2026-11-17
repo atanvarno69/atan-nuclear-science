@@ -1,13 +1,15 @@
 {
-    "name": "atan-nuclear-science",
-    "version": "0.3.3",
-    "title": "Nuclear Science",
-    "author": "atanvarno",
-    "description": "Adds nuclear science as Nauvis's science pack.",
-    "factorio_version": "2.0",
+    "name": "nuclear-science-continued",
+    "version": "1.0.0",
+    "title": "Nuclear Science Continued",
+    "author": "fleefie",
+    "description": "Adds nuclear science as Nauvis's science pack. Forked from Atanvarno's original mod.",
+    "factorio_version": "2.1",
     "dependencies": [
-        "space-age >= 2.0.32",
+        "space-age >= 2.1.0",
         "? any-planet-start",
-        "? PlutoniumEnergy"
+        "? PlutoniumEnergy",
+        "? DiscoScience",
+        "! atan-nuclear-science"
     ]
 }

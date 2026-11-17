@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "nuclear-science-pack",
-        category = "centrifuging",
+        categories = { "centrifuging" },
         enabled = false,
         energy_required = 10, -- NOTE: will be doubled to 20 in data-updates
         ingredients = {
@@ -22,20 +22,22 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "atan-atom-forge",
-        category = "advanced-centrifuging-or-crafting",
+        name = "nuclear-science-continued-atom-forge",
+        categories = { "advanced-centrifuging", "crafting" },
         enabled = false,
         energy_required = 12,
         ingredients = {
             { type = "item", name = "centrifuge", amount = 1 },
             { type = "item", name = "steel-plate", amount = 50 },
             { type = "item", name = "processing-unit", amount = 30 },
+            { type = "item", name = "depleted-uranium-fuel-cell", amount = 10 },
+            { type = "item", name = "uranium-238", amount = 50 },
             { type = "item", name = "refined-concrete", amount = 20 },
         },
         results = {
-            { type = "item", name = "atan-atom-forge", amount = 1 },
+            { type = "item", name = "nuclear-science-continued-atom-forge", amount = 1 },
         },
-        main_product = "atan-atom-forge",
+        main_product = "nuclear-science-continued-atom-forge",
         allow_productivity = false,
         surface_conditions = {
             { property = "pressure", min = 1000, max = 1000 },

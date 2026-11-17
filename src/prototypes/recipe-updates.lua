@@ -17,14 +17,19 @@ local atom_forgable = {
     "chemical-science-pack",
     "production-science-pack",
     "utility-science-pack",
+    "space-science-pack",
 }
 
 for _, recipe in pairs(centrifugable) do
-    util.set_category(recipe, "centrifuging-or-crafting")
+    if settings.startup["nuclear-science-continued-exclusive-centrifuging"].value == "true" then
+        util.set_category(recipe, "centrifuging")
+    else
+        util.add_category(recipe, "centrifuging")
+    end
 end
 
 for _, recipe in pairs(atom_forgable) do
-    util.set_category(recipe, "advanced-centrifuging-or-crafting")
+    util.add_category(recipe, "advanced-centrifuging")
 end
 
 for recipe, _ in pairs(data.raw["recipe"]) do

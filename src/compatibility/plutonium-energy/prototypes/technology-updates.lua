@@ -4,10 +4,10 @@ if not mods["PlutoniumEnergy"] then
     return
 end
 
-if settings.startup["atan-science-from-plutonium"].value == true then
+if settings.startup["nuclear-science-continued-science-pack-from-plutonium"].value == true then
     util.add_effect("plutonium-processing", {
         type = "unlock-recipe",
-        recipe = "nuclear-science-pack-from-plutonium",
+        recipe = "nuclear-science-continued-science-pack-from-plutonium",
     })
 end
 

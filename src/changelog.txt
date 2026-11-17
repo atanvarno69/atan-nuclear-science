@@ -1,4 +1,30 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-17
+  Changes:
+    - Renamed internal names to prevent conflicts with the original mod
+    - Bumped to 1.0.0, seems feature complete!
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2026-11-17
+  Changes:
+    - Added option to make centrifuging recipes exclusive to the Centrifuge
+    - Added space science packs to the Atom forge
+    - Nerfed Atom forge power consumption (2.58MW -> 3.58MW)
+    - Added Production science to Atom forge research
+    - Nerfed Atom forge recipe, now requires 50 U-238 and 10 Depleted uranium cells
+    - Added infinite researches to Nauvis! Ammo productivity.
+    - Also added Cryogenic infinite ammo productivity research for advanced ammunition types
+    - Added Disco Science support!
+    - Incorporated DjKolekson's fluid fixes, mostly for Cerys compatibility
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026-11-17
+  Changes:
+    - Ported to Factorio 2.1.
+    - Changed science pack texture.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 2025-02-14
   Bugfixes:
