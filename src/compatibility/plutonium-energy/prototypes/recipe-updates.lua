@@ -17,6 +17,10 @@ local recipes = {
     "plutonium-rounds-magazine",
 }
 
-for _, name in pairs(recipes) do
-    util.add_category(name, "centrifuging")
+for _, recipe in pairs(recipes) do
+    if settings.startup["atan-exclusive-centrifuging"].value == "true" then
+        util.set_category(recipe, "centrifuging")
+    else
+        util.add_category(recipe, "centrifuging")
+    end
 end

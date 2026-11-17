@@ -9,4 +9,11 @@ data:extend({
         default_value = "cheap",
         allowed_values = { "cheap", "trigger" },
     },
+    {
+        type = "string-setting",
+        name = "atan-exclusive-centrifuging",
+        setting_type = "startup",
+        default_value = "false",
+        allowed_values = { "true", "false" },
+    },
 })

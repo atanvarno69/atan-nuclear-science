@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2026-11-17
+  Changes:
+    - Added option to make centrifuging recipes exclusive to the Centrifuge
+    - Added space science packs to the Atom forge
+
+---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 2026-11-17
   Changes:

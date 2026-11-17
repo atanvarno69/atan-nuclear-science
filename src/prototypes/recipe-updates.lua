@@ -20,7 +20,11 @@ local atom_forgable = {
 }
 
 for _, recipe in pairs(centrifugable) do
-    util.add_category(recipe, "centrifuging")
+    if settings.startup["atan-exclusive-centrifuging"].value == "true" then
+        util.set_category(recipe, "centrifuging")
+    else
+        util.add_category(recipe, "centrifuging")
+    end
 end
 
 for _, recipe in pairs(atom_forgable) do
