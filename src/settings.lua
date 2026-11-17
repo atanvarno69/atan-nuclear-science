@@ -13,7 +13,7 @@ data:extend({
         type = "string-setting",
         name = "atan-exclusive-centrifuging",
         setting_type = "startup",
-        default_value = "false",
+        default_value = "true",
         allowed_values = { "true", "false" },
     },
 })
