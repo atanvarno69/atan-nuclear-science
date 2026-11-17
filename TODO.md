@@ -16,9 +16,9 @@
 
 ## Infinite technology
 
-- [ ] Initial code draft
-- [ ] Work out appropriate costs
-- [ ] Locale
+- [X] Initial code draft
+- [X] Work out appropriate costs
+- [X] Locale
 - [ ] Graphics
   - [ ] 64px effect icons
   - [ ] 256px technology icons

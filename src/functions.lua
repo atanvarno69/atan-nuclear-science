@@ -73,6 +73,9 @@ function M.recipe.add_category(recipe_name, category)
     if not data.raw["recipe"][recipe_name] then
         return
     end
+    if not data.raw["recipe"][recipe_name].categories then
+        data.raw["recipe"][recipe_name].categories = {}
+    end
     table.insert(data.raw["recipe"][recipe_name].categories, category)
 end
 
