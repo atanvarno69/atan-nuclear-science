@@ -7,6 +7,8 @@ Date: 2026-11-17
     - Nerfed Atom forge power consumption (2.58MW -> 3.58MW)
     - Added Production science to Atom forge research
     - Nerfed Atom forge recipe, now requires 50 U-238 and 10 Depleted uranium cells
+    - Added infinite researches to Nauvis! Ammo productivity.
+    - Also added Cryogenic infinite ammo productivity research for advanced ammunition types
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0

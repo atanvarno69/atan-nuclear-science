@@ -19,9 +19,9 @@
 - [X] Initial code draft
 - [X] Work out appropriate costs
 - [X] Locale
-- [ ] Graphics
-  - [ ] 64px effect icons
-  - [ ] 256px technology icons
+- [X] Graphics
+  - [X] 64px effect icons
+  - [X] 256px technology icons
     - [ ] 32 px version (for README)
 - [ ] README documentation
 
