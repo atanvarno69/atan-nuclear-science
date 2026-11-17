@@ -74,7 +74,10 @@ function M.recipe.add_category(recipe_name, category)
         return
     end
     if not data.raw["recipe"][recipe_name].categories then
-        data.raw["recipe"][recipe_name].categories = {}
+        data.raw["recipe"][recipe_name].categories = { "crafting" }
+    end
+    for _, c in ipairs(data.raw["recipe"].categories) do
+        if c == category then return
     end
     table.insert(data.raw["recipe"][recipe_name].categories, category)
 end

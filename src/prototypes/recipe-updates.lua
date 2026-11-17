@@ -17,6 +17,7 @@ local atom_forgable = {
     "chemical-science-pack",
     "production-science-pack",
     "utility-science-pack",
+    "space-science-pack",
 }
 
 for _, recipe in pairs(centrifugable) do
