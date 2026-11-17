@@ -134,3 +134,5 @@ New Uranium science pack graphics from [Radioactive Science](https://github.com/
 Atom forge sounds from [Pixabay](https://pixabay.com/), by xFromarge1 and Insu, released under the [Pixabay Content License](https://pixabay.com/service/license-summary/).
 
 Original mod from [Atanvarno69](https://github.com/atanvarno69/atan-nuclear-science), [Mod portal link](https://mods.factorio.com/mod/atan-nuclear-science)
+
+Fluid fixes from [DjKolekson](https://mods.factorio.com/mod/cerys-and-nuclear-science)

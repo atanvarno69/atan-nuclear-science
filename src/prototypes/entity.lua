@@ -7,6 +7,9 @@ local circuit_connector = circuit_connector_definitions.create_vector(universal_
     { variation = 25, main_offset = util.by_pixel(4, 88), shadow_offset = util.by_pixel(6, 90), show_shadow = true },
 })
 
+-- Load the forge pipe images
+local pipe_picture = require("__base__.prototypes.entity.assembler-pictures").assembler3pipepictures
+
 data:extend({
     {
         type = "assembling-machine",
@@ -23,6 +26,45 @@ data:extend({
         circuit_connector = circuit_connector,
         collision_box = { { -2.7, -2.7 }, { 2.7, 2.7 } },
         selection_box = { { -3, -3 }, { 3, 3 } },
+        fluid_boxes = {
+            {
+                production_type = "input",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { -1.5, -2.5 }, direction = defines.direction.north }
+                },
+            },
+            {
+                production_type = "input",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { 1.5, -2.5 }, direction = defines.direction.north }
+                },
+            },
+            {
+                production_type = "output",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { -1.5, 2.5 }, direction = defines.direction.south }
+                },
+            },
+            {
+                production_type = "output",
+                pipe_picture = pipe_picture,
+                pipe_covers = pipecoverspictures(),
+                volume = 1000,
+                pipe_connections = {
+                    { position = { 1.5, 2.5 }, direction = defines.direction.south }
+                },
+            },
+        },
+        fluid_boxes_off_when_no_fluid_recipe = true,
         drawing_box_vertical_extension = 1,
         heating_energy = "300kW",
         damaged_trigger_effect = require("__base__.prototypes.entity.hit-effects").entity(),

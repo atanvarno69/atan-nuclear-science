@@ -10,6 +10,7 @@ Date: 2026-11-17
     - Added infinite researches to Nauvis! Ammo productivity.
     - Also added Cryogenic infinite ammo productivity research for advanced ammunition types
     - Added Disco Science support!
+    - Incorporated DjKolekson's fluid fixes, mostly for Cerys compatibility
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
