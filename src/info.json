@@ -1,8 +1,8 @@
 {
-    "name": "atan-nuclear-science",
+    "name": "nuclear-science-continued",
     "version": "0.4.1",
-    "title": "Nuclear Science",
-    "author": "atanvarno, fleefie",
+    "title": "Nuclear Science Continued",
+    "author": "fleefie",
     "description": "Adds nuclear science as Nauvis's science pack. Forked from Atanvarno's original mod.",
     "factorio_version": "2.1",
     "dependencies": [
