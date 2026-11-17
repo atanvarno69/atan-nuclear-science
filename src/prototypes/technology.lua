@@ -67,7 +67,6 @@ data:extend({
         effects = {
             { type = "change-recipe-productivity", change = 0.05, recipe = "firearm-magazine" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "piercing-rounds-magazine" },
-            { type = "change-recipe-productivity", change = 0.05, recipe = "uranium-rounds-magazine" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "shotgun-shell" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "piercing-shotgun-shell" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "rocket" },
@@ -114,6 +113,7 @@ data:extend({
             time = 60,
         },
         effects = {
+            { type = "change-recipe-productivity", change = 0.05, recipe = "uranium-rounds-magazine" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "cannon-shell" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "explosive-cannon-shell" },
             { type = "change-recipe-productivity", change = 0.05, recipe = "uranium-cannon-shell" },
