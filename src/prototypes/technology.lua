@@ -33,7 +33,19 @@ data:extend({
     {
         type = "technology",
         name = "atan-basic-ammunition-productivity-1",
-        icon = "__atan-nuclear-science__/graphics/technology/basic-ammo-productivity.png",
+        icons = {
+            {
+                icon = "__base__/graphics/technology/physical-projectile-damage-2.png",
+                icon_size = 256,
+            },
+            {
+                icon = "__core__/graphics/icons/technology/constants/constant-recipe-productivity.png",
+                icon_size = 128,
+                scale = 0.5,
+                shift = { 50, 50 },
+                floating = true,
+            }
+        },
         icon_size = 256,
         upgrade = true,
         max_level = "infinite",
@@ -66,7 +78,19 @@ data:extend({
     {
         type = "technology",
         name = "atan-advanced-ammunition-productivity-1",
-        icon = "__atan-nuclear-science__/graphics/technology/advanced-ammo-productivity.png",
+        icons = {
+            {
+                icon = "__base__/graphics/technology/uranium-ammo.png",
+                icon_size = 256,
+            },
+            {
+                icon = "__core__/graphics/icons/technology/constants/constant-recipe-productivity.png",
+                icon_size = 128,
+                scale = 0.5,
+                shift = { 50, 50 },
+                floating = true,
+            }
+        },
         icon_size = 256,
         upgrade = true,
         max_level = "infinite",
@@ -99,7 +123,19 @@ data:extend({
     {
         type = "technology",
         name = "atan-hyrdocarbon-productivity-1",
-        icon = "__atan-nuclear-science__/graphics/technology/hydrocarbon-productivity.png",
+        icons = {
+            {
+                icon = "__base__/graphics/technology/advanced-oil-processing.png",
+                icon_size = 256,
+            },
+            {
+                icon = "__core__/graphics/icons/technology/constants/constant-recipe-productivity.png",
+                icon_size = 128,
+                scale = 0.5,
+                shift = { 50, 50 },
+                floating = true,
+            }
+        },
         icon_size = 256,
         upgrade = true,
         max_level = "infinite",
