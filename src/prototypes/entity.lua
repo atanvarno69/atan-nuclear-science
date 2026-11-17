@@ -39,7 +39,7 @@ data:extend({
             usage_priority = "secondary-input",
             emissions_per_minute = { pollution = 6 },
         },
-        energy_usage = "2500kW",
+        energy_usage = "3500kW",
         perceived_performance = { minimum = 0.25, maximum = 20 },
         open_sound = sounds.metal_large_open,
         close_sound = sounds.metal_large_close,

@@ -5,7 +5,6 @@
 - [ ] Make atom forge recipe more expensive. Ideas:
   * a large amount of uranium-238
   * an additionnal item that you can only get from refining depleted uranium fuel
-- [ ] Increase atom forge power consumption
 - [ ] Investigate [Cerys](https://mods.factorio.com/mod/Cerys-Moon-of-Fulgora)' fluid input for nuclear recipes
 
 ## Compatability
@@ -27,6 +26,7 @@
 
 ## 0.4.1
 - [X] Consider making space science packs atom forgable
+- [X] Increase atom forge power consumption
 
 ## 0.4.0
 
