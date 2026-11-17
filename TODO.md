@@ -4,6 +4,10 @@
 
 - [ ] Investigate [Cerys](https://mods.factorio.com/mod/Cerys-Moon-of-Fulgora)' fluid input for nuclear recipes
 
+## "Nice to haves"
+
+- [ ] Create a "Tips and Tricks" Nauvis briefing and simulation showcasing nuclear processing
+
 ## Compatability
 
 - [ ] Schall Uranium Processing
