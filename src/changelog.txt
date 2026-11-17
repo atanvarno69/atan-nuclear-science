@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-17
+  Changes:
+    - Renamed internal names to prevent conflicts with the original mod
+    - Bumped to 1.0.0, seems feature complete!
+---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 2026-11-17
   Changes:
