@@ -30,6 +30,8 @@ data:extend({
             { type = "item", name = "centrifuge", amount = 1 },
             { type = "item", name = "steel-plate", amount = 50 },
             { type = "item", name = "processing-unit", amount = 30 },
+            { type = "item", name = "depleted-uranium-fuel-cell", amount = 10 },
+            { type = "item", name = "uranium-238", amount = 50 },
             { type = "item", name = "refined-concrete", amount = 20 },
         },
         results = {
