@@ -9,6 +9,7 @@ Date: 2026-11-17
     - Nerfed Atom forge recipe, now requires 50 U-238 and 10 Depleted uranium cells
     - Added infinite researches to Nauvis! Ammo productivity.
     - Also added Cryogenic infinite ammo productivity research for advanced ammunition types
+    - Added Disco Science support!
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
