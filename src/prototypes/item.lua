@@ -6,7 +6,7 @@ data:extend({
         type = "tool",
         name = "nuclear-science-pack",
         localised_description = { "item-description.science-pack" },
-        icon = "__atan-nuclear-science__/graphics/icons/nuclear-science-pack.png",
+        icon = "__nuclear-science-continued__/graphics/icons/nuclear-science-pack.png",
         subgroup = "science-pack",
         color_hint = { text = "N" },
         order = "g[z-nuclear-science-pack]",
@@ -24,13 +24,13 @@ data:extend({
         pictures = {
             layers = {
                 {
-                    filename = "__atan-nuclear-science__/graphics/icons/nuclear-science-pack.png",
+                    filename = "__nuclear-science-continued__/graphics/icons/nuclear-science-pack.png",
                     mipmap_count = 4,
                     scale = 0.5,
                     size = 64,
                 },
                 {
-                    filename = "__atan-nuclear-science__/graphics/icons/space-age-science-pack-glow.png",
+                    filename = "__nuclear-science-continued__/graphics/icons/space-age-science-pack-glow.png",
                     mipmap_count = 4,
                     scale = 0.5,
                     size = 64,
@@ -41,14 +41,14 @@ data:extend({
     },
     {
         type = "item",
-        name = "atan-atom-forge",
-        icon = "__atan-nuclear-science__/graphics/icons/atom-forge.png",
+        name = "nuclear-science-continued-atom-forge",
+        icon = "__nuclear-science-continued__/graphics/icons/atom-forge.png",
         subgroup = "production-machine",
         order = "fa[atom-forge]",
         inventory_move_sound = item_sounds.mechanical_inventory_move,
         pick_sound = item_sounds.mechanical_inventory_pickup,
         drop_sound = item_sounds.mechanical_inventory_move,
-        place_result = "atan-atom-forge",
+        place_result = "nuclear-science-continued-atom-forge",
         stack_size = 10,
         default_import_location = "nauvis",
         random_tint_color = tint.iron_rust,

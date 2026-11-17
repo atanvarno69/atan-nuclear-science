@@ -4,14 +4,14 @@ require("compatibility.plutonium-energy.settings")
 data:extend({
     {
         type = "string-setting",
-        name = "atan-kovarex-mode",
+        name = "nuclear-science-continued-kovarex-mode",
         setting_type = "startup",
         default_value = "cheap",
         allowed_values = { "cheap", "trigger" },
     },
     {
         type = "string-setting",
-        name = "atan-exclusive-centrifuging",
+        name = "nuclear-science-continued-exclusive-centrifuging",
         setting_type = "startup",
         default_value = "true",
         allowed_values = { "true", "false" },

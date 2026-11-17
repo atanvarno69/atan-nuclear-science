@@ -54,7 +54,7 @@ util.set_prerequisites("uranium-mining", { "electric-mining-drill", "sulfur-proc
 util.set_trigger("uranium-mining", { type = "craft-fluid", fluid = "sulfuric-acid" })
 
 -- Kovarex setting adjustment
-if settings.startup["atan-kovarex-mode"].value == "trigger" then
+if settings.startup["nuclear-science-continued-kovarex-mode"].value == "trigger" then
     util.set_trigger("kovarex-enrichment-process", {
         type = "craft-item",
         item = "uranium-235",

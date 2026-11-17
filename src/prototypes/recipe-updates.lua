@@ -21,7 +21,7 @@ local atom_forgable = {
 }
 
 for _, recipe in pairs(centrifugable) do
-    if settings.startup["atan-exclusive-centrifuging"].value == "true" then
+    if settings.startup["nuclear-science-continued-exclusive-centrifuging"].value == "true" then
         util.set_category(recipe, "centrifuging")
     else
         util.add_category(recipe, "centrifuging")

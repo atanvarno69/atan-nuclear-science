@@ -18,7 +18,7 @@ local recipes = {
 }
 
 for _, recipe in pairs(recipes) do
-    if settings.startup["atan-exclusive-centrifuging"].value == "true" then
+    if settings.startup["nuclear-science-continued-exclusive-centrifuging"].value == "true" then
         util.set_category(recipe, "centrifuging")
     else
         util.add_category(recipe, "centrifuging")

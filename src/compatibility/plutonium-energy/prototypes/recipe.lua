@@ -1,11 +1,11 @@
-if settings.startup["atan-science-from-plutonium"].value == false then
+if settings.startup["nuclear-science-continued-science-pack-from-plutonium"].value == false then
     return
 end
 
 data:extend({
     {
         type = "recipe",
-        name = "nuclear-science-pack-from-plutonium",
+        name = "nuclear-science-continued-science-pack-from-plutonium",
         category = "centrifuging",
         enabled = false,
         energy_required = 10, -- NOTE: will be doubled to 20 in data-updates
@@ -29,7 +29,7 @@ data:extend({
                 shift = { -4, -4 },
             },
             {
-                icon = "__atan-nuclear-science__/graphics/icons/nuclear-science-pack.png",
+                icon = "__nuclear-science-continued__/graphics/icons/nuclear-science-pack.png",
                 icon_size = 64,
                 draw_background = true,
                 shift = { 4, 4 },

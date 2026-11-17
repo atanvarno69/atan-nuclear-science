@@ -22,7 +22,7 @@ data:extend({
     },
     {
         type = "recipe",
-        name = "atan-atom-forge",
+        name = "nuclear-science-continued-atom-forge",
         categories = { "advanced-centrifuging", "crafting" },
         enabled = false,
         energy_required = 12,
@@ -35,9 +35,9 @@ data:extend({
             { type = "item", name = "refined-concrete", amount = 20 },
         },
         results = {
-            { type = "item", name = "atan-atom-forge", amount = 1 },
+            { type = "item", name = "nuclear-science-continued-atom-forge", amount = 1 },
         },
-        main_product = "atan-atom-forge",
+        main_product = "nuclear-science-continued-atom-forge",
         allow_productivity = false,
         surface_conditions = {
             { property = "pressure", min = 1000, max = 1000 },

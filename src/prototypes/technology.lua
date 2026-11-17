@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "nuclear-science-pack",
-        icon = "__atan-nuclear-science__/graphics/technology/nuclear-science-pack.png",
+        icon = "__nuclear-science-continued__/graphics/technology/nuclear-science-pack.png",
         icon_size = 256,
         essential = true,
         research_trigger = { type = "craft-item", item = "uranium-235" },
@@ -10,8 +10,8 @@ data:extend({
     },
     {
         type = "technology",
-        name = "atan-atom-forge",
-        icon = "__atan-nuclear-science__/graphics/technology/atom-forge.png",
+        name = "nuclear-science-continued-atom-forge",
+        icon = "__nuclear-science-continued__/graphics/technology/atom-forge.png",
         icon_size = 256,
         prerequisites = {
             "nuclear-science-pack",
@@ -28,11 +28,11 @@ data:extend({
                 { "nuclear-science-pack", 1 },
             },
         },
-        effects = { { type = "unlock-recipe", recipe = "atan-atom-forge" } },
+        effects = { { type = "unlock-recipe", recipe = "nuclear-science-continued-atom-forge" } },
     },
     {
         type = "technology",
-        name = "atan-basic-ammunition-productivity-1",
+        name = "nuclear-science-continued-basic-ammunition-productivity-1",
         icons = {
             {
                 icon = "__base__/graphics/technology/physical-projectile-damage-2.png",
@@ -76,7 +76,7 @@ data:extend({
     },
     {
         type = "technology",
-        name = "atan-advanced-ammunition-productivity-1",
+        name = "nuclear-science-continued-advanced-ammunition-productivity-1",
         icons = {
             {
                 icon = "__base__/graphics/technology/uranium-ammo.png",
@@ -126,7 +126,7 @@ data:extend({
     },
     {
         type = "technology",
-        name = "atan-hyrdocarbon-productivity-1",
+        name = "nuclear-science-continued-hyrdocarbon-productivity-1",
         icons = {
             {
                 icon = "__base__/graphics/technology/advanced-oil-processing.png",
