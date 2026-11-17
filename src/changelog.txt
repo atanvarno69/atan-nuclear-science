@@ -5,6 +5,7 @@ Date: 2026-11-17
     - Added option to make centrifuging recipes exclusive to the Centrifuge
     - Added space science packs to the Atom forge
     - Nerfed Atom forge power consumption (2.58MW -> 3.58MW)
+    - Added Production science to Atom forge research
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
