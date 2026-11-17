@@ -20,11 +20,11 @@ local atom_forgable = {
 }
 
 for _, recipe in pairs(centrifugable) do
-    util.set_category(recipe, "centrifuging-or-crafting")
+    util.add_category(recipe, "centrifuging")
 end
 
 for _, recipe in pairs(atom_forgable) do
-    util.set_category(recipe, "advanced-centrifuging-or-crafting")
+    util.add_category(recipe, "advanced-centrifuging")
 end
 
 for recipe, _ in pairs(data.raw["recipe"]) do

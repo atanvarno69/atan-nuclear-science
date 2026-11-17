@@ -60,16 +60,27 @@ function M.recipe.is_centrifuging(recipe_name)
     if not data.raw["recipe"][recipe_name] or not data.raw["recipe"].category then
         return false
     end
-    local category = data.raw["recipe"].category
-    -- Don't include advanced-centrifuging-or-crafting
-    return category == "centrifuging" or category == "centrifuging-or-crafting"
+    local categories = data.raw["recipe"].categories
+    for _, value in ipairs(categories) do
+        if value == "centrifuging" then
+            return true
+        end
+    end
+    return false
+end
+
+function M.recipe.add_category(recipe_name, category)
+    if not data.raw["recipe"][recipe_name] then
+        return
+    end
+    table.insert(data.raw["recipe"][recipe_name].categories, category)
 end
 
 function M.recipe.set_category(recipe_name, category)
     if not data.raw["recipe"][recipe_name] then
         return
     end
-    data.raw["recipe"][recipe_name].category = category
+    data.raw["recipe"][recipe_name].categories = { category }
 end
 
 function M.tech.add_effect(tech_name, effect)

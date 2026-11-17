@@ -31,8 +31,7 @@ data:extend({
         allowed_effects = { "consumption", "speed", "productivity", "pollution", "quality" },
         crafting_categories = {
             "centrifuging",
-            "centrifuging-or-crafting",
-            "advanced-centrifuging-or-crafting",
+            "advanced-centrifuging",
         },
         crafting_speed = 2,
         energy_source = {

@@ -18,5 +18,5 @@ local recipes = {
 }
 
 for _, name in pairs(recipes) do
-    util.set_category(name, "centrifuging-or-crafting")
+    util.add_category(name, "centrifuging")
 end
