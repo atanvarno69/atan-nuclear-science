@@ -6,6 +6,7 @@ Date: 2026-11-17
     - Added space science packs to the Atom forge
     - Nerfed Atom forge power consumption (2.58MW -> 3.58MW)
     - Added Production science to Atom forge research
+    - Nerfed Atom forge recipe, now requires 50 U-238 and 10 Depleted uranium cells
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
